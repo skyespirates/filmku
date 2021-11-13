@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router";
 
 const Navbar = () => {
+  const location = useLocation();
+  const page = location.pathname.split("/")[1];
   return (
     <div className="bg-black">
       <div className="flex justify-between max-w-5xl py-2 mx-auto">
@@ -13,16 +16,20 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li className="mr-9">
-            <a className="text-white" href="#about">
-              About
-            </a>
-          </li>
-          <li className="mr-9">
-            <a className="text-white" href="#team">
-              Team
-            </a>
-          </li>
+          {page === "film" ? null : (
+            <>
+              <li className="mr-9">
+                <a className="text-white" href="#about">
+                  About
+                </a>
+              </li>
+              <li className="mr-9">
+                <a className="text-white" href="#team">
+                  Team
+                </a>
+              </li>
+            </>
+          )}
           <li className="">
             <Link className="px-3 py-1 text-white bg-blue-700" to="/film">
               Daftar Film
