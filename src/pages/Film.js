@@ -8,7 +8,7 @@ const Film = () => {
     <>
       <Navbar />
       <div className="bg-black">
-        <div className="flex flex-col items-center justify-center max-w-5xl min-h-screen mx-auto text-white">
+        <div className="flex flex-col items-center max-w-5xl min-h-screen p-2 mx-auto text-white">
           {film.map((item) => (
             <FilmCard key={item.id} content={item} />
           ))}

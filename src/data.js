@@ -30,7 +30,7 @@ export const film = [
     title: "Shawsank Redemption",
     year: 2001,
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut corrupti illum nam magni, animi veniam quisquam aliquam voluptas sed quas fuga dignissimos modi numquam pariatur eum suscipit praesentium. Ab, temporibus?",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut corrupti illum nam magni, animi veniam quisquam ",
     rating: 8.8,
   },
   {
@@ -39,7 +39,7 @@ export const film = [
     title: "3 Idiots",
     year: 2006,
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut corrupti illum nam magni, animi veniam quisquam aliquam voluptas sed quas fuga dignissimos modi numquam pariatur eum suscipit praesentium. Ab, temporibus?",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut corrupti illum nam magni, animi veniam quisquam ",
     rating: 8.9,
   },
 ];

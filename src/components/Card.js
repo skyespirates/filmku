@@ -1,7 +1,7 @@
 const Card = ({ content }) => {
   return (
     <div
-      className="flex flex-col items-center justify-center bg-gray-900"
+      className="flex flex-col items-center justify-center mb-6 bg-gray-900 md"
       style={{ width: "240px", height: "320px" }}
     >
       <div className="relative mb-8 overflow-hidden bg-blue-700 rounded-full w-28 h-28">
