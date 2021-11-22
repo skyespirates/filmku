@@ -10,41 +10,45 @@ const Navbar = () => {
     <div className="bg-black">
       <div
         onClick={() => setToggle(!toggle)}
-        className="relative flex flex-col max-w-5xl px-2 py-2 mx-auto cursor-pointer md:flex-row md:justify-between"
+        className="relative flex flex-col px-2 py-2 mx-auto cursor-pointer max-w-7xl md:flex-row md:justify-between"
       >
-        <Link className="text-2xl font-bold text-blue-700 md:text-4xl" to="/">
+        <Link
+          id="logo"
+          className="text-2xl font-bold text-blue-700 md:text-4xl"
+          to="/"
+        >
           FILMKU
         </Link>
         <div className="absolute z-10 flex items-center justify-center w-6 h-6 rounded-full md:hidden top-3 right-3">
           <ion-icon size="large" name="menu-outline"></ion-icon>
         </div>
         <ul
-          className={`text-xs md:text-base items-center justify-center md:justify-end  w-full  md:flex ${
+          className={`text-sm md:text-base items-center justify-center md:justify-end  w-full  md:flex ${
             toggle ? "block" : "hidden"
           }`}
         >
           <li className="text-center md:mr-9">
-            <Link className="text-white" to="/">
+            <Link className="block py-1 text-white md:py-0 " to="/">
               Home
             </Link>
           </li>
           {page === "film" ? null : (
             <>
               <li className="text-center md:mr-9">
-                <a className="text-white" href="#about">
-                  About
+                <a className="block py-1 text-white md:py-0 " href="#about">
+                  Tentang
                 </a>
               </li>
               <li className="text-center md:mr-9">
-                <a className="text-white" href="#team">
-                  Team
+                <a className="block py-1 text-white md:py-0 " href="#team">
+                  Kontak
                 </a>
               </li>
             </>
           )}
           <li className="">
             <Link
-              className="block px-3 py-1 text-center text-white bg-blue-700"
+              className="block px-4 py-1 text-center text-white bg-blue-700 rounded-full"
               to="/film"
             >
               Daftar Film

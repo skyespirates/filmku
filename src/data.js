@@ -3,7 +3,6 @@ export const team = [
     id: 1,
     img: "https://res.cloudinary.com/skyes/image/upload/v1635785816/thumbnail_599379_c7faa82917.jpg",
     name: "Shibgotalloh Sabilana",
-    role: "Developer",
     socialMedia: {
       instagram: "https://www.instagram.com/qspc.spidpes",
       linkedin: "https://www.linkedin.com/in/shibgotalloh-sabilana-3a899a215/",
@@ -14,7 +13,6 @@ export const team = [
     id: 2,
     img: "https://res.cloudinary.com/skyes/image/upload/v1635839466/thumbnail_106774_7aad527661.jpg",
     name: "Abdullah Aziz Wali",
-    role: "Developer",
     socialMedia: {
       instagram: "https://instagram.com/skyes07",
       linkedin: "https://www.linkedin.com/in/abdullah-aziz-wali/",

@@ -1,10 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600;700&display=swap");
 * {
   font-family: "Oswald", sans-serif;
   scroll-behavior: smooth;
+}
+#logo {
+  font-family: "Oswald", sans-serif;
+}
+p,
+a {
+  font-family: "Open Sans", sans-serif;
 }
 .cardImage {
   width: 90px;
@@ -17,6 +24,17 @@
 ion-icon {
   color: #fff;
 }
+#about,
+#team {
+  height: 640px;
+}
+#recent {
+  height: 480px;
+}
+#feature {
+  height: 360px;
+}
+
 @media screen and (min-width: 376px) {
   .cardImage {
     width: 180px;
