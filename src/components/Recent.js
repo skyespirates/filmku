@@ -33,14 +33,14 @@ const Recent = () => {
             />
           </div>
           <div className="flex-1 leading-10 text-justify " style={{ color: '#ffffff' }}>
-            <h1 className="font-semibold text-5xl ">The Avengers</h1>
-            <h3 className="font-bold text-2xl mb-10">2012</h3>
-            <p className="text-2xl leading-10 text-justify mb-10">
+            <h1 className="text-5xl font-semibold ">The Avengers</h1>
+            <h3 className="mb-10 text-2xl font-bold">2012</h3>
+            <p className="mb-10 text-2xl leading-10 text-justify">
               Filmku merupakan platform informatif yang menjelaskan seputar review dan pendapat dari berbagai film di dunia. Filmku merupakan platform informatif yang menjelaskan seputar review dan pendapat dari berbagai film di dunia.
             </p>
             <div>
               {/* fontnya gak oswald  */}
-              <Link className="px-3 py-1 font-semibold text-xs rounded-md md:px-9 md:py-3 md:text-2xl" to="/film" style={{ backgroundColor: '#04A3DD' }}>
+              <Link className="px-3 py-1 text-xs font-semibold rounded-full md:px-9 md:py-3 md:text-2xl" to="/film" style={{ backgroundColor: '#04A3DD' }}>
                 Selengkapnya
               </Link>
             </div>
