@@ -24,7 +24,7 @@ const Film = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-black">
+      <div className="" style={{ backgroundColor: '#1B2124' }}>
         {loading ? (
           <h1 className="text-3xl text-white">Loading...</h1>
         ) : (
