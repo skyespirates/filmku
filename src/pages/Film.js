@@ -1,16 +1,18 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import FilmCard from "../components/FilmCard";
-import { useEffect, useState } from "react";
-import { request } from "../apiCalls";
-import { film } from "../data";
+import Auth from '../components/Auth';
+import Filter from '../components/Filter';
+import FilmCard from '../components/FilmCard';
+import { useEffect, useState } from 'react';
+import { request } from '../apiCalls';
+import { film } from '../data';
 const Film = () => {
   const [films, setFilms] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     const getFilms = async () => {
       try {
-        const res = await request.get("/films");
+        const res = await request.get('/films');
         setFilms(res.data);
         setLoading(false);
       } catch (error) {
@@ -24,6 +26,7 @@ const Film = () => {
   return (
     <>
       <Navbar />
+      <Filter />
       <div className="" style={{ backgroundColor: '#1B2124' }}>
         {loading ? (
           <h1 className="text-3xl text-white">Loading...</h1>
@@ -35,6 +38,7 @@ const Film = () => {
           </div>
         )}
       </div>
+      <Auth />
       <Footer />
     </>
   );

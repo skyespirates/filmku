@@ -7,7 +7,7 @@ const FilmCard = ({ content }) => {
         <div className="relative flex-shrink-0 mr-2 overflow-hidden bg-gray-900 md:mr-6 cardImage">
           <img className="absolute object-cover object-right w-full h-full" src={content.img || BASE_URL + content.image.url} alt={content.title} />
         </div>
-        <div className="flex flex-col justify-around">
+        <div className="flex flex-col justify-between mb-3">
           <div>
             <h1 className="font-semibold text-white-900 md:text-2xl">{content.title}</h1>
             <p className="font-bold text-white-900 md:text-base ">{content.year}</p>
