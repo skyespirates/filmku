@@ -1,9 +1,11 @@
 # Filmku Project
 
-filmku adalah
+first project : 8 November 2021
 
 
-- cara dua layer background
-- edit yg ada didalam card
-- cara pake tag i gimana
-- hover
+- bagian detail belum bisa?
+- cara install tailwind gimana?
+- cara button/link
+- maenin flex gmna
+- terapin js coy
+
