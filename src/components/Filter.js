@@ -27,7 +27,7 @@ const Filter = () => {
             </ul>
           </div>
         </div>
-        <div className="mx-16">
+        {/* <div className="mx-16">
           <button
             id="dropdownDividerButton"
             data-dropdown-toggle="dropdownDivider"
@@ -51,8 +51,8 @@ const Filter = () => {
               </li>
             </ul>
           </div>
-        </div>
-        <div className="mx-16">
+        </div> */}
+        {/* <div className="mx-16">
           <button
             id="dropdownDividerButton"
             data-dropdown-toggle="dropdownDivider"
@@ -76,7 +76,7 @@ const Filter = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
