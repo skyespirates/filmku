@@ -27,9 +27,10 @@ const Filter = () => {
             </ul>
           </div>
         </div>
-        {/* <div className="mx-16">
+
+        <div className="mx-16">
           <button
-            id="dropdownDividerButton"
+            id="dropdownDividerButton2"
             data-dropdown-toggle="dropdownDivider"
             className="inline-flex items-center px-8 py-2 text-sm font-medium text-center text-white bg-transparent rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             type="button"
@@ -41,8 +42,8 @@ const Filter = () => {
             </svg>
           </button>
 
-          <div id="dropdownDivider" className="z-10 hidden text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-            <ul className="py-1" aria-labelledby="dropdownDividerButton">
+          <div id="dropdownDivider2" className="z-10 hidden text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+            <ul className="py-1" aria-labelledby="dropdownDividerButton2">
               <li className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
                 <p>Indonesia</p>
               </li>
@@ -51,11 +52,12 @@ const Filter = () => {
               </li>
             </ul>
           </div>
-        </div> */}
-        {/* <div className="mx-16">
+        </div>
+
+        <div className="mx-16">
           <button
-            id="dropdownDividerButton"
-            data-dropdown-toggle="dropdownDivider"
+            id="dropdownDividerButton3"
+            data-dropdown-toggle="dropdownDivider3"
             className="inline-flex items-center px-8 py-2 text-sm font-medium text-center text-white bg-transparent rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             type="button"
             style={{ border: '3px solid #04A3DD' }}
@@ -66,20 +68,28 @@ const Filter = () => {
             </svg>
           </button>
 
-          <div id="dropdownDivider" className="z-10 hidden text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-            <ul className="py-1" aria-labelledby="dropdownDividerButton">
+          <div id="dropdownDivider3" className="z-10 hidden text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+            <ul className="py-1" aria-labelledby="dropdownDividerButton3">
               <li className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
                 <p>2018</p>
               </li>
               <li className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
                 <p>2019</p>
               </li>
+              <li className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+                <p>2020</p>
+              </li>
+              <li className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+                <p>2021</p>
+              </li>
             </ul>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
 };
 
 export default Filter;
+<link rel="stylesheet" href="https://unpkg.com/@themesberg/flowbite@1.2.0/dist/flowbite.min.css" />;
+<script src="https://unpkg.com/@themesberg/flowbite@1.2.0/dist/flowbite.bundle.js"></script>;

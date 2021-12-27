@@ -19,4 +19,4 @@ const Hero = () => {
 
 export default Hero;
 
-const styling = { backgroundImage: 'url("image2.jpg")', backgroundSize: '1440px 640px', zIndex: '1' };
+const styling = { backgroundImage: 'url("image1.jpg")', backgroundSize: '1440px 640px', zIndex: '1' };
