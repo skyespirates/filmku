@@ -1,6 +1,6 @@
 const Fitur = () => {
   return (
-    <div id="feature" className="flex items-center justify-between max-w-5xl mx-auto">
+    <div id="feature" className="flex items-center justify-between max-w-5xl mx-auto ">
       <div className="grid h-56 bg-transparent justify-items-center w-50">
         <div className="flex items-center justify-center w-40 rounded h-36 rounded-xl" style={{ backgroundColor: '#1B2124' }}>
           <ion-icon name="film-outline" className="items-center" style={{ color: '#04B6F6', fontSize: '112px' }}></ion-icon>
