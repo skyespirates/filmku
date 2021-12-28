@@ -24,19 +24,19 @@ const Navbar = () => {
           {page === 'film' ? null : (
             <>
               <li className="text-center md:mr-9">
-                <a className="block py-1 text-white md:py-0 " href="#about">
+                <a className="block py-1 text-white md:py-0 hover:text-blue-300" href="#about">
                   Tentang
                 </a>
               </li>
               <li className="text-center md:mr-9">
-                <a className="block py-1 text-white md:py-0 " href="#team">
+                <a className="block py-1 text-white md:py-0 hover:text-blue-300" href="#team">
                   Kontak
                 </a>
               </li>
             </>
           )}
           <li className="">
-            <Link className="block px-4 py-1 text-center text-white bg-blue-700 rounded-full" style={{ backgroundColor: '#04A3DD' }} to="/film">
+            <Link className="block px-4 py-1 text-center text-white bg-blue-700 rounded-full hover:bg-transparent" style={{ backgroundColor: '#04A3DD' }} to="/film">
               Daftar Film
             </Link>
           </li>

@@ -11,12 +11,12 @@ const FilmCard = ({ content }) => {
           <div>
             <h1 className="font-semibold text-white-900 md:text-2xl">{content.title}</h1>
             <p className="font-bold text-white-900 md:text-base ">{content.year}</p>
-            <p className="text-xs text-white-900 md:text-base">{content.description.substring(0, 200) + '...'}</p>
+            <p className="mt-4 text-xs text-white-900 md:text-base">{content.description.substring(0, 250) + '...'}</p>
 
             {/* <h2 className="text-xs text-gray-900 md:text-base ">{content.year}</h2> */}
           </div>
           <div>
-            <Link className="w-32 p-1 rounded-full h-9 md:px-4 md:py-1 md:text-base" style={{ backgroundColor: '#04A3DD' }} to={`/film/${content._id}`}>
+            <Link className="px-3 py-1 text-xs font-semibold bg-blue-700 rounded-full md:px-6 md:py-3 md:text-base" style={{ backgroundColor: '#04A3DD' }} to={`/film/${content._id}`}>
               Selengkapnya
             </Link>
           </div>
@@ -27,3 +27,4 @@ const FilmCard = ({ content }) => {
 };
 
 export default FilmCard;
+
