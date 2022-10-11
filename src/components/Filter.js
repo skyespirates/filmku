@@ -10,7 +10,7 @@ const Filter = () => {
             type="button"
             style={{ border: '3px solid #04A3DD' }}
           >
-            <p>Filter Genre</p>
+            <p>Genre</p>
             <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
@@ -36,7 +36,7 @@ const Filter = () => {
             type="button"
             style={{ border: '3px solid #04A3DD' }}
           >
-            <p>Filter Negara</p>
+            <p>Negara</p>
             <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
@@ -62,7 +62,7 @@ const Filter = () => {
             type="button"
             style={{ border: '3px solid #04A3DD' }}
           >
-            <p>Filter Tahun</p>
+            <p>Tahun</p>
             <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
