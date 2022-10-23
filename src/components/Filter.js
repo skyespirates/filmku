@@ -17,6 +17,11 @@ const Filter = ({ filteredResult, setFilteredResult }) => {
 
   const [selectGenre, isSelectGenre] = useState('Genre');
   const [open, isOpen] = useState(false);
+  const getOpenGenre = () => {
+    isOpen(!open);
+    isOpenCountry(false);
+    isOpenYears(false);
+  };
   const pickGenre = (value) => {
     const filteredData = data.filter((item) => item.genre === value);
     // const filteredData = filteredResult.filter((item.genre === "Animasi") => {
@@ -31,6 +36,11 @@ const Filter = ({ filteredResult, setFilteredResult }) => {
   };
   const [selectCountry, isSelectCountry] = useState('Negara');
   const [openCountry, isOpenCountry] = useState(false);
+  const getOpenCountry = () => {
+    isOpen(false);
+    isOpenCountry(!openCountry);
+    isOpenYears(false);
+  };
   const pickCountry = (value) => {
     const filteredData = data.filter((item) => item.country === value);
     console.log(filteredData);
@@ -42,6 +52,11 @@ const Filter = ({ filteredResult, setFilteredResult }) => {
   };
   const [selectYears, isSelectYears] = useState('Tahun');
   const [openYears, isOpenYears] = useState(false);
+  const getOpenYears = () => {
+    isOpen(false);
+    isOpenCountry(false);
+    isOpenYears(!openYears);
+  };
   const pickYears = (value) => {
     let filteredData = [];
     if (value === '< 2000') {
@@ -65,7 +80,7 @@ const Filter = ({ filteredResult, setFilteredResult }) => {
         {/* filter genre */}
         <div className="mx-16">
           <div
-            onClick={() => isOpen(!open)}
+            onClick={getOpenGenre}
             className="inline-flex items-center px-8 py-2 text-sm font-medium text-center text-white bg-transparent rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             style={{ border: '3px solid #04A3DD' }}
           >
@@ -74,8 +89,8 @@ const Filter = ({ filteredResult, setFilteredResult }) => {
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </div>
-          <div id="dropdownDivider" className="z-10 text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
-            <ul className={`py-1 ${open ? 'show' : 'hidden'} `} aria-labelledby="dropdownDividerButton">
+          <div id="dropdownDivider" className="z-10 text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600 absolute">
+            <ul className={`py-1 ${open ? 'show' : 'hidden'}  `} aria-labelledby="dropdownDividerButton">
               <li onClick={() => pickGenre('Animasi')} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
                 Animasi
               </li>
@@ -94,7 +109,7 @@ const Filter = ({ filteredResult, setFilteredResult }) => {
         {/* filter negara */}
         <div className="mx-16">
           <div
-            onClick={() => isOpenCountry(!openCountry)}
+            onClick={getOpenCountry}
             className="inline-flex items-center px-8 py-2 text-sm font-medium text-center text-white bg-transparent rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             style={{ border: '3px solid #04A3DD' }}
           >
@@ -103,7 +118,7 @@ const Filter = ({ filteredResult, setFilteredResult }) => {
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </div>
-          <div id="dropdownDivider" className="z-10 text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+          <div id="dropdownDivider" className="z-10 text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600 absolute">
             <ul className={`py-1 ${openCountry ? 'show' : 'hidden'} `} aria-labelledby="dropdownDividerButton">
               <li
                 onClick={() => {
@@ -128,7 +143,7 @@ const Filter = ({ filteredResult, setFilteredResult }) => {
         {/* filter tahun */}
         <div className="mx-16">
           <div
-            onClick={() => isOpenYears(!openYears)}
+            onClick={getOpenYears}
             className="inline-flex items-center px-8 py-2 text-sm font-medium text-center text-white bg-transparent rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             style={{ border: '3px solid #04A3DD' }}
           >
@@ -137,7 +152,7 @@ const Filter = ({ filteredResult, setFilteredResult }) => {
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </div>
-          <div id="dropdownDivider" className="z-10 text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+          <div id="dropdownDivider" className="z-10 text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600 absolute">
             <ul className={`py-1 ${openYears ? 'show' : 'hidden'} `} aria-labelledby="dropdownDividerButton">
               {tahun.map((tahun) => (
                 <li
@@ -150,23 +165,6 @@ const Filter = ({ filteredResult, setFilteredResult }) => {
                   {tahun}
                 </li>
               ))}
-
-              {/* <li
-                onClick={() => {
-                  pickYears(2015);
-                }}
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
-              >
-                2015
-              </li>
-              <li
-                onClick={() => {
-                  pickYears(2016);
-                }}
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
-              >
-                2016
-              </li> */}
             </ul>
           </div>
         </div>
