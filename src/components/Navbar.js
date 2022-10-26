@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom";
-import { useLocation } from "react-router";
-import { useState } from "react";
+import { Link } from 'react-router-dom';
+import { useLocation } from 'react-router';
+import { useState } from 'react';
 
 const Navbar = () => {
   const location = useLocation();
-  const page = location.pathname.split("/")[1];
+  const page = location.pathname.split('/')[1];
   const [toggle, setToggle] = useState(false);
   return (
     <div className="bg-black" style={{ backgroundColor: '#1B2124' }}>
