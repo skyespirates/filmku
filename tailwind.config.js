@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./src/**/*.html', './src/**/*.jsx', './src/**/*.js'],
+  purge: ["./src/**/*.html", "./src/**/*.jsx", "./src/**/*.js"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
@@ -7,5 +7,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require('@themesberg/flowbite/plugin')],
+  plugins: [require("@themesberg/flowbite/plugin")],
 };
