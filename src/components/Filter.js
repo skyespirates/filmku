@@ -74,9 +74,11 @@ const Filter = ({ filteredResult, setFilteredResult }) => {
   const pickYears = (value) => {
     let filteredData = [];
     if (value === "< 2000") {
-      filteredData = data.filter((item) => item.years === 1998);
+      filteredData = data.filter((item) => item.years < 2000);
     } else if (value === "2000 - 2010") {
-      filteredData = data.filter((item) => item.years === 2009);
+      filteredData = data.filter(
+        (item) => item.years >= 2000 && item.years <= 2010
+      );
     } else {
       filteredData = data.filter((item) => item.years === value);
     }
