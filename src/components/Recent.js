@@ -4,15 +4,28 @@ import { useEffect, useState } from 'react';
 
 const Recent = () => {
   const [film, setFilm] = useState([]);
+  const [recent, setRecent] = useState([]);
+  const id = Math.floor(Math.random() * 10) + 1;
+
   useEffect(() => {
     const getFilms = () => {
-      axios.get(`http://localhost:3333/movie/1`).then((res) => {
+      axios.get(`http://localhost:3333/movie/${id}`).then((res) => {
         const persons = res.data;
         setFilm(persons);
       });
     };
+    // const inputRecent = () => {
+    //   const length = film.length;
+    //   setRecent(film[id]);
+    //   console.log(length);
+    // };
     getFilms();
+    // inputRecent();
+    // console.log(film);
   }, []);
+
+  const deskrip = film.description ? film.description.substring(0, 150) + '...' : '';
+
   return (
     // <div className="bg-black" style={{ backgroundColor: '#1B2124', height="640px"}}>
     //   <div id="recent" className="flex max-w-5xl mx-auto">
@@ -47,10 +60,10 @@ const Recent = () => {
           <div className="flex-1 leading-10 text-justify " style={{ color: '#ffffff' }}>
             <h1 className="text-5xl font-semibold ">{film.title}</h1>
             <h3 className="mb-10 text-2xl font-bold">{film.years}</h3>
-            <p className="mb-10 text-2xl leading-10 text-justify">{film.description}</p>
+            <p className="mb-10 text-2xl leading-10 text-justify">{deskrip}</p>
             <div>
               {/* fontnya gak oswald  */}
-              <Link className="px-3 py-1 text-xs font-semibold rounded-full md:px-9 md:py-3 md:text-2xl" to="/film" style={{ backgroundColor: '#04A3DD' }}>
+              <Link className="px-3 py-1 text-xs font-semibold rounded-full md:px-9 md:py-3 md:text-2xl" to="/recent" style={{ backgroundColor: '#04A3DD' }}>
                 Selengkapnya
               </Link>
             </div>
