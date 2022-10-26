@@ -1,9 +1,7 @@
 # Filmku Project
 
-filmku adalah
+first project : 8 November 2021
 
-
-- cara dua layer background
-- edit yg ada didalam card
-- cara pake tag i gimana
-- hover
+env :
+React Js
+Tailwind UI
