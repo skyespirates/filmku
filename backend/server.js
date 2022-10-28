@@ -3,12 +3,15 @@ const express = require("express");
 const mongoose = require("mongoose");
 
 const movieRoutes = require("./routes/movieRoutes");
-const seedDB = require("./seed");
+const { seedDB, cleanDB } = require("./helpers");
 
 const app = express();
 
+app.use(express.json());
 app.use("/api/v1/movies", movieRoutes);
+
 // seedDB();
+// cleanDB();
 
 mongoose
   .connect(process.env.DB_URI)

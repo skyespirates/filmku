@@ -96,10 +96,17 @@ const seedDB = async () => {
   ];
   try {
     const res = await Movie.create(movies);
+  } catch (error) {
+    console.log(error.message);
+  }
+};
+const cleanDB = async () => {
+  try {
+    const res = await Movie.deleteMany({});
     console.log(res);
   } catch (error) {
     console.log(error.message);
   }
 };
 
-module.exports = seedDB;
+module.exports = { seedDB, cleanDB };
