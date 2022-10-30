@@ -1,14 +1,14 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 // import Auth from "../components/Auth";
-import Filter from "../components/Filter";
-import FilmCard from "../components/FilmCard";
-import axios from "axios";
-import { useEffect, useState } from "react";
+import Filter from '../components/Filter';
+import FilmCard from '../components/FilmCard';
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 // import { request } from "../apiCalls";
 // import { film } from "../data";
 // import { Link } from "react-router-dom";
-import UsePagination from "../components/UsePagination";
+import UsePagination from '../components/UsePagination';
 
 const Film = () => {
   const [films, setFilms] = useState([]);
@@ -16,7 +16,8 @@ const Film = () => {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     const getFilms = async () => {
-      axios.get(`http://localhost:3333/movie`).then((res) => {
+      axios.get(`http://localhost:4000/api/v1/movies`).then((res) => {
+        console.log(res.data);
         const persons = res.data;
         setFilms(persons);
         setFilteredResult(persons);
@@ -46,12 +47,9 @@ const Film = () => {
       <Navbar />
 
       {/* daftar film  */}
-      <Filter
-        filteredResult={filteredResult}
-        setFilteredResult={setFilteredResult}
-      />
+      <Filter filteredResult={filteredResult} setFilteredResult={setFilteredResult} />
 
-      <div className="" style={{ backgroundColor: "#1B2124" }}>
+      <div className="" style={{ backgroundColor: '#1B2124' }}>
         {loading ? (
           <h1 className="text-3xl text-white">Loading...</h1>
         ) : (
@@ -63,20 +61,12 @@ const Film = () => {
         )}
       </div>
 
-      <div className="py-16 text-white" style={{ backgroundColor: "#1B2124" }}>
+      <div className="py-16 text-white" style={{ backgroundColor: '#1B2124' }}>
         <div className="flex justify-center ">
-          <div
-            className="px-8 py-1 mx-6 bg-transparent border rounded-full hover:text-blue-300"
-            onClick={handlePrev}
-            style={{ border: "3px solid #04A3DD" }}
-          >
+          <div className="px-8 py-1 mx-6 bg-transparent border rounded-full hover:text-blue-300" onClick={handlePrev} style={{ border: '3px solid #04A3DD' }}>
             Sebelumnya
           </div>
-          <div
-            className="px-8 py-1 mx-6 bg-transparent border rounded-full hover:text-blue-300"
-            onClick={handleNext}
-            style={{ border: "3px solid #04A3DD" }}
-          >
+          <div className="px-8 py-1 mx-6 bg-transparent border rounded-full hover:text-blue-300" onClick={handleNext} style={{ border: '3px solid #04A3DD' }}>
             Selanjutnya
           </div>
         </div>

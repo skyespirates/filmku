@@ -9,19 +9,12 @@ const Recent = () => {
 
   useEffect(() => {
     const getFilms = () => {
-      axios.get(`http://localhost:3333/movie/${id}`).then((res) => {
+      axios.get(`http://localhost:4000/api/v1/movies/${id}`).then((res) => {
         const persons = res.data;
         setFilm(persons);
       });
     };
-    // const inputRecent = () => {
-    //   const length = film.length;
-    //   setRecent(film[id]);
-    //   console.log(length);
-    // };
     getFilms();
-    // inputRecent();
-    // console.log(film);
   }, []);
 
   const deskrip = film.description ? film.description.substring(0, 150) + '...' : '';
@@ -59,11 +52,11 @@ const Recent = () => {
           </div>
           <div className="flex-1 leading-10 text-justify " style={{ color: '#ffffff' }}>
             <h1 className="text-5xl font-semibold ">{film.title}</h1>
-            <h3 className="mb-10 text-2xl font-bold">{film.years}</h3>
+            <h3 className="mb-10 text-2xl font-bold">{film.year}</h3>
             <p className="mb-10 text-2xl leading-10 text-justify">{deskrip}</p>
             <div>
               {/* fontnya gak oswald  */}
-              <Link className="px-3 py-1 text-xs font-semibold rounded-full md:px-9 md:py-3 md:text-2xl" to="/recent" style={{ backgroundColor: '#04A3DD' }}>
+              <Link className="px-3 py-1 text-xs font-semibold rounded-full md:px-9 md:py-3 md:text-2xl" to={`/film/${film._id}`} style={{ backgroundColor: '#04A3DD' }}>
                 Selengkapnya
               </Link>
             </div>
