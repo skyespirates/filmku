@@ -1,9 +1,12 @@
 // import React, { useState } from 'react';
 // import * as React from 'react';
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function UsePagination(data, itemsPerPage) {
   const [currentPage, setCurrentPage] = useState(1);
+  if (data === null) {
+    data = [];
+  }
   const maxPage = Math.ceil(data.length / itemsPerPage);
 
   function currentData() {
