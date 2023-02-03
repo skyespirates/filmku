@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 const FilmCard = ({ content }) => {
   const { _id, rank, title, year, genre, country, description } = content;
   return (
-    <div className="">
+    <div className="flex">
+      <div className="flex flex-col p-4 mr-1 text-center rounded-lg " style={{ backgroundColor: '#5E5E60', width: '70px', height: '70px' }}>
+        <p className="my-auto text-2xl font-semibold">{rank}.</p>
+      </div>
       <div className="flex w-full p-8 mb-4 rounded-lg" style={{ backgroundColor: '#5E5E60', width: '1024px', height: '312px' }}>
         <div className="relative flex-shrink-0 mr-2 overflow-hidden bg-gray-900 md:mr-6 cardImage">
           {/* <img className="absolute object-cover object-right w-full h-full" src={content.img || BASE_URL + content.image.url} alt={content.title} /> */}
