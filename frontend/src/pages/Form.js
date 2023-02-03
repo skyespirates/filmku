@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
+import axios from 'axios';
 
 const Form = () => {
   const [value, setValue] = useState('');
@@ -21,9 +22,10 @@ const Form = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(form);
+    await axios.post('http://localhost:4000/api/v1/movies', form).then(console.log('sukses bos'));
+    // console.log(form);
   };
 
   return (
@@ -67,7 +69,10 @@ const Form = () => {
             </label>
           </li>
           <li>
-            <ReactQuill name="description" className="w-full h-full" theme="snow" value={form.description} onChange={handleChange} />
+            <label>deskripsi </label>
+            <input type="text" name="description" value={form.description} onChange={handleChange} />
+
+            {/* <ReactQuill name="description" className="w-full h-full" theme="snow" value={form.description} onChange={handleChange} /> */}
           </li>
         </ul>
       </form>
