@@ -14,6 +14,8 @@ const Film = () => {
   const [films, setFilms] = useState([]);
   const [filteredResult, setFilteredResult] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+
   useEffect(() => {
     const getFilms = async () => {
       axios.get(`http://localhost:4000/api/v1/movies`).then((res) => {
@@ -29,7 +31,7 @@ const Film = () => {
   }, []);
 
   const PER_PAGE = 5;
-  const _DATA = UsePagination(filteredResult, PER_PAGE);
+  const _DATA = UsePagination(filteredResult, PER_PAGE, currentPage, setCurrentPage);
   const handleNext = () => {
     _DATA.next();
   };
@@ -47,15 +49,15 @@ const Film = () => {
       <Navbar />
 
       {/* daftar film  */}
-      <Filter filteredResult={filteredResult} setFilteredResult={setFilteredResult} />
+      <Filter filteredResult={filteredResult} setFilteredResult={setFilteredResult} currentPage={currentPage} setCurrentPage={setCurrentPage} />
 
       <div className="" style={{ backgroundColor: '#1B2124' }}>
         {loading ? (
           <h1 className="text-3xl text-white">Loading...</h1>
         ) : (
           <div className="flex flex-col items-center max-w-5xl min-h-screen p-2 mx-auto text-white">
-            {_DATA.currentData().map((film) => (
-              <FilmCard key={film.id} content={film} />
+            {_DATA.currentData().map((film, index) => (
+              <FilmCard key={film.id} index={index + 1} content={film} />
             ))}
           </div>
         )}
