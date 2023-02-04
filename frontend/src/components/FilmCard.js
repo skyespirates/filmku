@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 // import { BASE_URL } from '../apiCalls';
-const FilmCard = ({ content }) => {
+const FilmCard = ({ index, content }) => {
   const { _id, rank, title, year, genre, country, description } = content;
   return (
     <div className="flex">
       <div className="flex flex-col p-4 mr-1 text-center rounded-lg " style={{ backgroundColor: '#5E5E60', width: '70px', height: '70px' }}>
-        <p className="my-auto text-2xl font-semibold">{rank}.</p>
+        <p className="my-auto text-2xl font-semibold">{index}.</p>
       </div>
       <div className="flex w-full p-8 mb-4 rounded-lg" style={{ backgroundColor: '#5E5E60', width: '1024px', height: '312px' }}>
         <div className="relative flex-shrink-0 mr-2 overflow-hidden bg-gray-900 md:mr-6 cardImage">

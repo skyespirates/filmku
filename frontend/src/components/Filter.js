@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const Filter = ({ filteredResult, setFilteredResult }) => {
+const Filter = ({ filteredResult, setFilteredResult, currentPage, setCurrentPage }) => {
   const [data, setData] = useState([]);
   const [tahun, setTahun] = useState(['< 2000', '2000 - 2010', 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021]);
   useEffect(() => {
@@ -26,6 +26,8 @@ const Filter = ({ filteredResult, setFilteredResult }) => {
     const filteredData = data.filter((item) => item.genre === value);
     console.log(filteredData);
     setFilteredResult(filteredData);
+    setCurrentPage(1);
+
     isSelectGenre(value);
     isSelectCountry('Negara');
     isSelectYear('Tahun');
@@ -42,6 +44,7 @@ const Filter = ({ filteredResult, setFilteredResult }) => {
     const filteredData = data.filter((item) => item.country === value);
     console.log(filteredData);
     setFilteredResult(filteredData);
+    setCurrentPage(1);
     isSelectGenre('Genre');
     isSelectCountry(value);
     isSelectYear('Tahun');
@@ -65,6 +68,7 @@ const Filter = ({ filteredResult, setFilteredResult }) => {
     }
     console.log(filteredData);
     setFilteredResult(filteredData);
+    setCurrentPage(1);
     isSelectGenre('Genre');
     isSelectCountry('Negara');
     isSelectYear(value);
