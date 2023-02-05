@@ -1,10 +1,12 @@
-import { useState } from 'react';
-import ReactQuill from 'react-quill';
+import { useEffect, useState } from 'react';
 import 'react-quill/dist/quill.snow.css';
+import ReactQuill from 'react-quill';
 import axios from 'axios';
+// import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+// import CKEditor from '@ckeditor/ckeditor5-react';
 
 const Form = () => {
-  const [value, setValue] = useState('');
+  const [text, setText] = useState('');
   const [form, setForm] = useState({
     title: '',
     year: 0,
@@ -13,6 +15,13 @@ const Form = () => {
     country: '',
     description: '',
   });
+
+  useEffect(() => {
+    setForm({
+      ...form,
+      description: text,
+    });
+  }, [text]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -24,8 +33,12 @@ const Form = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await axios.post('http://localhost:4000/api/v1/movies', form).then(console.log('sukses bos'));
+    await axios
+      .post('http://localhost:4000/api/v1/movies', form)
+      .then(console.log('sukses bos'))
+      .catch((e) => console.log(e));
     // console.log(form);
+    // console.log(text);
   };
 
   return (
@@ -64,22 +77,28 @@ const Form = () => {
               Pick your Region movie:
               <select name="country" value={form.country} onChange={handleChange}>
                 <option value="Nasional">Nasional</option>
-                <option value="Mancanegara">Mancanegara</option>
+                <option value="Internasional">Internasional</option>
               </select>
             </label>
           </li>
+          {/* <li>
+            <label>
+              Upload image:
+              <input type="file" name="testImage" onChange={handleChange} />
+            </label>
+          </li> */}
           <li>
-            <label>deskripsi </label>
-            <input type="text" name="description" value={form.description} onChange={handleChange} />
-
-            {/* <ReactQuill name="description" className="w-full h-full" theme="snow" value={form.description} onChange={handleChange} /> */}
+            <label>
+              deskripsi:
+              <ReactQuill theme="snow" name="description" value={text} onChange={setText} style={{ minHeight: '300px' }} />
+            </label>
           </li>
         </ul>
       </form>
       <button onClick={handleSubmit}>submit</button>
 
-      {/* <div className="text-black">{value}</div> */}
-      <div dangerouslySetInnerHTML={{ __html: value }}></div>
+      {/* <div className="text-black">{text}</div>
+      <div dangerouslySetInnerHTML={{ __html: text }}></div> */}
     </>
   );
 };
