@@ -7,12 +7,13 @@ import axios from 'axios';
 
 const Form = () => {
   const [text, setText] = useState('');
+  const [image, setImage] = useState('');
   const [form, setForm] = useState({
     title: '',
     year: 0,
     rank: 0,
-    genre: '',
-    country: '',
+    genre: 'Animasi',
+    country: 'Nasional',
     description: '',
   });
 
@@ -33,12 +34,26 @@ const Form = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log(image);
+    const data = new FormData();
+    data.append('title', form.title);
+    data.append('year', form.year);
+    data.append('rank', form.rank);
+    data.append('genre', form.genre);
+    data.append('country', form.country);
+    data.append('description', form.description);
+    data.append('testImage', image);
+
     await axios
-      .post('http://localhost:4000/api/v1/movies', form)
-      .then(console.log('sukses bos'))
+      .post('http://localhost:4000/api/v1/movies', data, {
+        Headers: {
+          'content-type': 'multipart/form-data',
+        },
+      })
+      .then((res) => {
+        console.log('sukses bos', res);
+      })
       .catch((e) => console.log(e));
-    // console.log(form);
-    // console.log(text);
   };
 
   return (
@@ -81,12 +96,12 @@ const Form = () => {
               </select>
             </label>
           </li>
-          {/* <li>
+          <li>
             <label>
               Upload image:
-              <input type="file" name="testImage" onChange={handleChange} />
+              <input type="file" name="testImage" onChange={(e) => setImage(e.target.files[0])} />
             </label>
-          </li> */}
+          </li>
           <li>
             <label>
               deskripsi:

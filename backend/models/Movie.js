@@ -27,7 +27,7 @@ const movieSchema = new mongoose.Schema(
       required: true,
     },
     image: {
-      data: Buffer,
+      type: String,
       contentType: String,
     },
   },
