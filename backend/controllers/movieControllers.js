@@ -5,18 +5,26 @@ const multer = require('multer');
 const Storage = multer.diskStorage({
   destination: 'uploads',
   filename: function (req, file, cb) {
-    cb(null, new Date().getTime() + '-' + 'image');
+    cb(null, new Date().getTime() + '-' + 'image.png');
   },
 });
+const fileFilter = (req, file, cb) => {
+  if (file.mimetype === 'image/png' || file.mimetype === 'image/jpg' || file.mimetype === 'image/jpeg') {
+    cb(null, true);
+  } else {
+    cb(null, false);
+  }
+};
 
-const upload = multer({ storage: Storage }).single('testImage');
+const upload = multer({ storage: Storage, fileFilter: fileFilter }).single('testImage');
 
 const createMovie = async (req, res) => {
   try {
     upload(req, res, (err) => {
       if (err) {
-        console.log(err);
+        console.log('file not exist');
       } else {
+        const image = req.file.filename;
         const newImage = new Movie({
           rank: req.body.rank,
           title: req.body.title,
@@ -24,14 +32,17 @@ const createMovie = async (req, res) => {
           genre: req.body.genre,
           country: req.body.country,
           description: req.body.description,
-          image: {
-            data: req.file.filename,
-            contentType: 'image/png',
-          },
+          image: image,
         });
+
         newImage
           .save()
-          .then(() => res.send('sukses'))
+          .then((result) =>
+            res.send({
+              message: ' sukses',
+              data: result,
+            })
+          )
           .catch((err) => res.send(err));
       }
     });

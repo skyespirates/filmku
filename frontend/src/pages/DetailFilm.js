@@ -10,6 +10,7 @@ import axios from 'axios';
 const DetailFilm = () => {
   const filmId = useLocation().pathname.split('/')[2];
   const [films, setFilms] = useState([]);
+  // const contoh = 'lorem <b>ipsum</b>';
   const [filteredResult, setFilteredResult] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
@@ -37,7 +38,7 @@ const DetailFilm = () => {
               <p className="text-sm text-white md:text-base">{films.year}</p>
             </div>
             <div className="flex flex-col md:flex-row body">
-              <div className="relative flex-shrink-0 mb-6 mr-6 overflow-hidden detail bg-gray-900">
+              <div className="relative flex-shrink-0 mb-6 mr-6 overflow-hidden bg-gray-900 detail">
                 <img
                   className="absolute object-cover w-full h-full"
                   // src={BASE_URL + film.image.url}
@@ -45,12 +46,13 @@ const DetailFilm = () => {
                 />
               </div>
               <div className="text-sm text-black-400 md:text-base">
-                <p className="mb-6 text-white">{films.description}</p>
+                <p className="mb-6 text-white" dangerouslySetInnerHTML={{ __html: films.description }} />
+                {/* <p className="mb-6 text-white" dangerouslySetInnerHTML={{ __html: contoh }} /> */}
               </div>
             </div>
-            <div className="text-center pb-8">
+            <div className="pb-8 text-center">
               <Link
-                className="mx-3 my-1 text-xs bg-transparent font-semibold text-white  rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 md:px-8 md:py-2 md:text-base"
+                className="mx-3 my-1 text-xs font-semibold text-white bg-transparent rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 md:px-8 md:py-2 md:text-base"
                 style={{ border: '3px solid #04A3DD' }}
                 to={`/film`}
               >
