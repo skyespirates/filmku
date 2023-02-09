@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 // import { BASE_URL } from '../apiCalls';
 const FilmCard = (props) => {
-  const { rank, title, year, image, description } = props;
+  const { id, rank, title, year, image, description } = props;
   return (
     <div className="flex">
       <div className="flex flex-col p-4 mr-1 text-center rounded-lg " style={{ backgroundColor: '#5E5E60', width: '70px', height: '70px' }}>
@@ -13,12 +13,12 @@ const FilmCard = (props) => {
         </div>
         <div className="flex flex-col justify-between mb-3">
           <div>
-            <h1 className="font-semibold text-white-900 md:text-2xl">{title}</h1>
+            <h1 className="font-semibold capitalize text-white-900 md:text-2xl">{title}</h1>
             <p className="font-bold text-white-900 md:text-base ">{year}</p>
-            <p className="mt-4 text-xs text-white-900 md:text-base" dangerouslySetInnerHTML={{ __html: description.substring(0, 250) + '...' }}></p>
+            <p className="mt-4 text-xs normal-case text-white-900 md:text-base" dangerouslySetInnerHTML={{ __html: description.substring(0, 250) + '...' }}></p>
           </div>
           <div>
-            <Link className="px-3 py-1 text-xs font-semibold bg-blue-700 rounded-full md:px-6 md:py-3 md:text-base" style={{ backgroundColor: '#04A3DD' }} to={`/film/`}>
+            <Link className="px-3 py-1 text-xs font-semibold bg-blue-700 rounded-full md:px-6 md:py-3 md:text-base" style={{ backgroundColor: '#04A3DD' }} to={`/film/${id}`}>
               Selengkapnya
             </Link>
           </div>

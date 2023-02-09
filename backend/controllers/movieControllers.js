@@ -20,10 +20,30 @@ const upload = multer({ storage: Storage, fileFilter: fileFilter }).single('test
 
 const createMovie = async (req, res) => {
   try {
+    const movies = await Movie.findOne({}).sort({
+      rank: -1,
+      createdAt: -1,
+    });
+    const dataRank = movies.rank;
+    // console.log(movies.rank);
+
     upload(req, res, (err) => {
       if (err) {
         console.log('file not exist');
       } else {
+        var lastRank = req.body.rank;
+        // console.log(lastRank);
+        while (lastRank <= dataRank) {
+          const oldRank = { rank: lastRank };
+          const newRank = { rank: parseInt(lastRank) + 1 };
+          Movie.findOneAndUpdate(oldRank, newRank, function (err, doc) {
+            if (err) {
+              console.log('Something wrong when updating data!');
+            }
+            // console.log(doc);
+          });
+          lastRank++;
+        }
         const image = req.file.filename;
         const newImage = new Movie({
           rank: req.body.rank,
@@ -49,6 +69,7 @@ const createMovie = async (req, res) => {
     // const movie = await Movie.create(req.body);
     // res.status(200).json(movie);
   } catch (error) {
+    console.log('salah');
     res.status(400).json({ error: error.message });
   }
 };
