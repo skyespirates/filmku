@@ -75,12 +75,11 @@ const createMovie = async (req, res) => {
 };
 const getMovies = async (req, res) => {
   try {
-    const movies = await Movie.findOne({}).sort({
-      rank: -1,
+    const movies = await Movie.find({}).sort({
+      rank: 1,
       createdAt: -1,
     });
-    console.log(movies.rank);
-    // res.status(200).json(movies.rank);
+    res.status(200).json(movies);
   } catch (error) {
     res.status(400).json({ error: error.message });
   }
@@ -111,16 +110,5 @@ const deleteMovie = async (req, res) => {
     res.status(400).json({ error: error.message });
   }
 };
-const contohMovie = async (req, res) => {
-  try {
-    const movies = await Movie.find({}).sort({
-      rank: 1,
-      createdAt: -1,
-    });
-    res.status(200).json(movies);
-  } catch (error) {
-    res.status(400).json({ error: error.message });
-  }
-};
 
-module.exports = { createMovie, getMovies, getMovie, updateMovie, deleteMovie, contohMovie };
+module.exports = { createMovie, getMovies, getMovie, updateMovie, deleteMovie };
