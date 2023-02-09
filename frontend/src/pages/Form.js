@@ -2,10 +2,13 @@ import { useEffect, useState } from 'react';
 import 'react-quill/dist/quill.snow.css';
 import ReactQuill from 'react-quill';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+
 // import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 // import CKEditor from '@ckeditor/ckeditor5-react';
 
 const Form = () => {
+  const navigate = useNavigate();
   const [text, setText] = useState('');
   const [image, setImage] = useState('');
   const [form, setForm] = useState({
@@ -54,6 +57,7 @@ const Form = () => {
         console.log('sukses bos', res);
       })
       .catch((e) => console.log(e));
+    navigate('/film');
   };
 
   return (

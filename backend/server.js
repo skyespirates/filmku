@@ -20,7 +20,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
-app.use('/api/v1/movies', movieRoutes);
+app.use('/api/v1/movies/', movieRoutes);
 app.use('/images', express.static(path.join(__dirname, 'uploads')));
 // app.use(multer({ storage: Storage }).single('image'));
 // seedDB();

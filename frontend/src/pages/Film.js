@@ -57,7 +57,7 @@ const Film = () => {
         ) : (
           <div className="flex flex-col items-center max-w-5xl min-h-screen p-2 mx-auto text-white">
             {_DATA.currentData().map((film) => (
-              <FilmCard key={film.id} rank={film.rank} title={film.title} year={film.year} description={film.description} image={`http://localhost:4000/images/${film.image}`} />
+              <FilmCard id={film._id} key={film.id} rank={film.rank} title={film.title} year={film.year} description={film.description} image={`http://localhost:4000/images/${film.image}`} />
             ))}
           </div>
         )}
