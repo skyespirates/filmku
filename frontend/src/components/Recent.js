@@ -10,7 +10,7 @@ const Recent = () => {
 
   useEffect(() => {
     const getFilms = () => {
-      axios.get(`http://localhost:4000/api/v1/movies/63e0a3c54d1d8450b6f0524f`).then((res) => {
+      axios.get(`http://localhost:4000/api/v1/movies/63e113c6cf2eba276f1549ac`).then((res) => {
         const persons = res.data;
         setFilm(persons.movie);
         // console.log(film.title);
