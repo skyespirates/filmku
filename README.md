@@ -47,3 +47,4 @@ Filmku merupakan Blog pribadi yang memuat tentang film terbaik yang pernah diton
 - 🧑 Abdullah Aziz Wali ([Github](https://github.com/skyespirates)) ([Linkedin](https://www.linkedin.com/in/abdullah-aziz-wali/))
 
 start project : 8 November 2021
+end projek
