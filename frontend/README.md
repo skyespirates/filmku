@@ -1,13 +1,8 @@
-# Filmku Project
+# Deployment
 
-about review movie
+To deploy this project run :
 
-first project : 8 November 2021
-
-to do :
-npm install
-npm start
-
-env :
-React Js
-Tailwind UI
+```bash
+    npm install
+    npm start
+```

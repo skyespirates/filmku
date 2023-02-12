@@ -1,13 +1,12 @@
-# Guide
+# Deployment
 
-1. Buat file .env
-2. Contoh .env
-   ```
-    PORT=4000
-    DB_URI=<mongodb_uri kamu>
-   ```
-3. Run `npm install`
-4. Run `npm run dev`
+To deploy this project run :
+
+```bash
+    Create Port and url .env
+    npm install
+    npm run dev
+```
 
 ## bahan isian
 
