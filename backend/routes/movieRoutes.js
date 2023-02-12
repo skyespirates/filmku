@@ -4,7 +4,7 @@ const { createMovie, getMovies, getMovie, updateMovie, deleteMovie } = require('
 router.post('/', createMovie);
 router.get('/', getMovies);
 router.get('/:id', getMovie);
-router.patch('/:id', updateMovie);
+router.put('/:id', updateMovie);
 router.delete('/:id', deleteMovie);
 
 module.exports = router;

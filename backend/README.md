@@ -20,9 +20,6 @@ To deploy this project run :
 
 3. A seperation - 2011
 4. Gone girl - 2014
-5. The prestige - 2006
-6. Who am i - 2014
-7. Big hero 6 - 2014
-8. Schindler's list - 1993
-9. 12 angry men - 1957
-10. Toy story 3 - 2010
+   Sebagai pecinta genre thriller tentunya saya akan sangat familiar dengan Divid fincher, salah satu sutradara terbaik dalam membuat film ber genre thriller. Dan jika disuruh memilih apa karya terbaik David Fincher, saya akan menjawab Gone Girl
+
+Film ini menunjukan jika salah satu faktor film dapat disebut bagus adalah dari aktor-aktornya, dan untuk saya peran Rosamund Pike sebagai Amy merupakan salah satu akting terbaik sepanjang saya menonton film 5. The prestige - 2006 6. Who am i - 2014 7. Big hero 6 - 2014 8. Schindler's list - 1993 9. 12 angry men - 1957 10. Toy story 3 - 2010

@@ -98,6 +98,7 @@ const updateMovie = async (req, res) => {
   try {
     const updated = await Movie.findByIdAndUpdate(id, { ...req.body }, { new: true });
     res.status(200).json(updated);
+    // console.log('update');
   } catch (error) {
     res.status(400).json({ error: error.message });
   }
