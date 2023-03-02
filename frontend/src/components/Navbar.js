@@ -7,7 +7,10 @@ const Navbar = () => {
   const page = location.pathname.split("/")[1];
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="bg-black" style={{ backgroundColor: "#1B2124" }}>
+    <div
+      className="bg-black sticky top-0 z-30 shadow-xl px-12"
+      style={{ backgroundColor: "#1B2124" }}
+    >
       <div
         onClick={() => setToggle(!toggle)}
         className="relative flex flex-col px-2 py-6 mx-auto cursor-pointer max-w-7xl md:flex-row md:justify-between"
@@ -15,7 +18,7 @@ const Navbar = () => {
         <Link
           id="logo"
           className="text-2xl font-bold text-blue-700 md:text-4xl"
-          style={{ color: "#04A3DD" }}
+          style={{ color: "#1677ff" }}
           to="/"
         >
           FILMKU
@@ -28,14 +31,16 @@ const Navbar = () => {
             toggle ? "block" : "hidden"
           }`}
         >
-          <li className="text-center md:mr-9">
-            <Link
-              className="block py-1 text-white md:py-0 hover:text-blue-300 hover:font-bold"
-              to="/"
-            >
-              Home
-            </Link>
-          </li>
+          {page !== "" && (
+            <li className="text-center md:mr-9">
+              <Link
+                className="block py-1 text-white md:py-0 hover:text-blue-300 hover:font-bold"
+                to="/"
+              >
+                Home
+              </Link>
+            </li>
+          )}
           {page === "film" ? null : (
             <>
               <li className="text-center md:mr-9">

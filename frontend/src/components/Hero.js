@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import { Button } from "antd";
 
 const Hero = () => {
   return (
-    <div className="relative">
+    <div className="relative" style={{ marginTop: "" }}>
       <div className="" style={styling}>
         <div
           className=""
@@ -12,16 +13,23 @@ const Hero = () => {
             className="flex flex-col items-center justify-center max-w-5xl mx-auto text-white h-96 md:min-h-screen"
             style={{ zIndex: "3" }}
           >
-            <h1 className="mb-16 text-2xl font-bold leading-relaxed tracking-wide text-center md:mb-12 md:text-7xl ">
+            <h1
+              className="mb-16 text-2xl font-bold leading-relaxed tracking-wide text-center md:mb-12 md:text-6xl "
+              style={{ color: "#d9d9d9" }}
+            >
               Karena Film yang seru harus diabadikan
             </h1>
-            <Link
+            {/* <Link
+              id="main-cta"
               className="px-3 py-1 text-xs font-semibold rounded-full md:px-9 md:py-3 md:text-2xl"
               to="/film"
               style={{ backgroundColor: "#1890ff" }}
             >
               Cek Film Disini
-            </Link>
+            </Link> */}
+            <Button type="primary" shape="round" size="large">
+              Cek Film Di Sini
+            </Button>
           </div>
         </div>
       </div>
