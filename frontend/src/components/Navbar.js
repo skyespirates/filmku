@@ -61,6 +61,14 @@ const Navbar = () => {
               </li>
             </>
           )}
+          <li className="text-center md:mr-9">
+            <Link
+              className="block py-1 text-white md:py-0 hover:text-blue-300 hover:font-bold"
+              to="/movies"
+            >
+              Movies
+            </Link>
+          </li>
           <li className="">
             <Link
               className="block px-4 py-1 text-center text-white bg-blue-700 rounded-full hover:bg-transparent"
