@@ -42,19 +42,19 @@ const Recent = () => {
     //   </div>
     // </div>
 
-    <div className="bg-black" style={{ backgroundColor: '#1B2124' }}>
-      <div className="py-8 max-w-7xl">
-        <div className="flex">
-          <div className="flex-none mx-20 w-96">
-            <img className="w-full h-full" src={image} alt="gambar" />
+    <div id="recent" className="pt-20 pb-20 bg-black" style={{ backgroundColor: '#1B2124' }}>
+      <div className="px-12">
+        <div className="flex ">
+          <div className="flex-none mr-20 w-96">
+            <img className="" style={{ objectFit: 'cover', width: '100%', height: '70%' }} src={image} alt="gambar" />
           </div>
-          <div className="flex-1 leading-10 text-justify " style={{ color: '#ffffff' }}>
+          <div className="flex-1 leading-10 text-justify text-white" style={{}}>
             <h1 className="text-5xl font-semibold capitalize">{film.title}</h1>
-            <h3 className="mb-10 text-2xl font-bold">{film.year}</h3>
-            <p className="mb-10 text-2xl leading-10 text-justify normal-case" dangerouslySetInnerHTML={{ __html: deskrip }}></p>
+            <h3 className="mb-10 text-xl font-bold">{film.year}</h3>
+            <p className="mb-10 text-xl leading-10 text-justify normal-case" dangerouslySetInnerHTML={{ __html: deskrip }}></p>
             <div>
               {/* fontnya gak oswald  */}
-              <Link className="px-3 py-1 text-xs font-semibold rounded-full md:px-9 md:py-3 md:text-2xl" to={`/film/${film._id}`} style={{ backgroundColor: '#04A3DD' }}>
+              <Link className="px-3 py-1 text-xl font-semibold rounded-full md:px-9 md:py-3 md:text-2xl" to={`/film/${film._id}`} style={{ backgroundColor: '#04A3DD' }}>
                 Selengkapnya
               </Link>
             </div>

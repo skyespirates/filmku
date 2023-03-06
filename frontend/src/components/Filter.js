@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const Filter = ({ filteredResult, setFilteredResult, currentPage, setCurrentPage }) => {
   const [data, setData] = useState([]);
-  const [tahun, setTahun] = useState(['< 2000', '2000 - 2010', 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021]);
+  const [tahun, setTahun] = useState(['< 2000', '2000 - 2010', '2011 - 2020', '> 2020']);
   useEffect(() => {
     const getFilms = async () => {
       axios.get(`http://localhost:4000/api/v1/movies`).then((res) => {
@@ -63,8 +63,10 @@ const Filter = ({ filteredResult, setFilteredResult, currentPage, setCurrentPage
       filteredData = data.filter((item) => item.year < 2000);
     } else if (value === '2000 - 2010') {
       filteredData = data.filter((item) => item.year >= 2000 && item.year <= 2010);
+    } else if (value === '2011 - 2020') {
+      filteredData = data.filter((item) => item.year > 2010 && item.year <= 2020);
     } else {
-      filteredData = data.filter((item) => item.year === value);
+      filteredData = data.filter((item) => item.year > 2020);
     }
     console.log(filteredData);
     setFilteredResult(filteredData);
@@ -77,31 +79,31 @@ const Filter = ({ filteredResult, setFilteredResult, currentPage, setCurrentPage
 
   return (
     <div className="py-16 text-white" style={{ backgroundColor: '#1B2124' }}>
-      <div className="flex flex-row justify-center content-center">
+      <div className="flex flex-row content-center justify-center">
         {/* filter genre */}
         <div className="mx-16">
           <div
             onClick={getOpenGenre}
-            className="inline-flex items-center px-8 py-2 text-sm font-medium text-center text-white bg-transparent rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-8 py-2 text-base font-medium text-center text-white bg-transparent rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             style={{ border: '3px solid #04A3DD' }}
           >
             <p>{selectGenre}</p>
-            <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </div>
-          <div id="dropdownDivider" className="z-10 text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600 absolute">
+          <div id="dropdownDivider" className="absolute z-10 text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
             <ul className={`py-1 ${open ? 'show' : 'hidden'}  `} aria-labelledby="dropdownDividerButton">
-              <li onClick={() => pickGenre('Animasi')} className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
-                Animasi
+              <li onClick={() => pickGenre('Animasi')} className="block px-4 py-2 text-base text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
+                <p>Animasi</p>
               </li>
               <li
                 onClick={() => {
                   pickGenre('Non Animasi');
                 }}
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                className="block px-4 py-2 text-base text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
               >
-                Non Animasi
+                <p>Non Animasi</p>
               </li>
             </ul>
           </div>
@@ -111,31 +113,31 @@ const Filter = ({ filteredResult, setFilteredResult, currentPage, setCurrentPage
         <div className="mx-16">
           <div
             onClick={getOpenCountry}
-            className="inline-flex items-center px-8 py-2 text-sm font-medium text-center text-white bg-transparent rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-8 py-2 text-base font-medium text-center text-white bg-transparent rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             style={{ border: '3px solid #04A3DD' }}
           >
             <p>{selectCountry}</p>
-            <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </div>
-          <div id="dropdownDivider" className="z-10 text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600 absolute">
+          <div id="dropdownDivider" className="absolute z-10 text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
             <ul className={`py-1 ${openCountry ? 'show' : 'hidden'} `} aria-labelledby="dropdownDividerButton">
               <li
                 onClick={() => {
                   pickCountry('Indonesia');
                 }}
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                className="block px-4 py-2 text-base text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
               >
-                Indonesia
+                <p>Indonesia</p>
               </li>
               <li
                 onClick={() => {
                   pickCountry('Internasional');
                 }}
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                className="block px-4 py-2 text-base text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
               >
-                Internasional
+                <p>Internasional</p>
               </li>
             </ul>
           </div>
@@ -145,15 +147,15 @@ const Filter = ({ filteredResult, setFilteredResult, currentPage, setCurrentPage
         <div className="mx-16">
           <div
             onClick={getOpenYear}
-            className="inline-flex items-center px-8 py-2 text-sm font-medium text-center text-white bg-transparent rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="inline-flex items-center px-8 py-2 text-base font-medium text-center text-white bg-transparent rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             style={{ border: '3px solid #04A3DD' }}
           >
             <p>{selectYear}</p>
-            <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </div>
-          <div id="dropdownDivider" className="z-10 text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600 absolute">
+          <div id="dropdownDivider" className="absolute z-10 text-base list-none bg-white divide-y divide-gray-100 rounded shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
             <ul className={`py-1 ${openYear ? 'show' : 'hidden'} `} aria-labelledby="dropdownDividerButton">
               {tahun.map((tahun) => (
                 <li
@@ -161,9 +163,9 @@ const Filter = ({ filteredResult, setFilteredResult, currentPage, setCurrentPage
                   onClick={() => {
                     pickYear(tahun);
                   }}
-                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                  className="block px-4 py-2 text-base text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
                 >
-                  {tahun}
+                  <p>{tahun}</p>
                 </li>
               ))}
             </ul>
