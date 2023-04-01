@@ -11,14 +11,28 @@ To deploy this project run :
 ## bahan isian
 
 1. 3 idiot - 2009
-   definisi film sempurna ada pada film ini. salah satu parameter film terbaik sepanjang masa untuk saya adalah dimana film tersebut dapat ditonton terus menerus tanpa bosen sama sekali, dan hal tersebut terdapat pada film ini. film ini pula lah yang membawa saya terhadap film-film ajaib dari Aamir khan lainnya.
+   definisi film sempurna ada pada film ini. salah satu parameter film terbaik sepanjang masa untuk saya adalah dimana film tersebut dapat ditonton terus menerus tanpa bosen sama sekali, dan hal tersebut terdapat pada film ini.
 
-   entah sampai kapan film ini akan terus bertahan di tahta tertinggi, lets see
+   film ini pula lah yang membawa saya terhadap film-film ajaib dari Aamir khan lainnya, salah satu sutradara terbaik sepanjang masa. tapi tetap untuk film terbaiknya masih dipegang 3 idiot ini. walaupun masih menggunakan skema film india pada umumnya yang berdurasi hampir 3 jam ditambah banyak lagu-lagu didalamnya tapi tetap tidak menganggu keseruan dari filmnya. bahkan menurut saya lagu-lagu di film ini salah satu yang paling ngena.
 
-2. the shawshank redemption -1994
-   Film yang membawa saya explore lebih dalam sehingga menjadi suka terhadap genre drama. Buat orang-orang yang cari rekomendasi film lewat rating IMDB, pasti film ini bakal jadi watchlist utama, begitu juga saya dulu seperti itu.
+   gak banyak kata lagi dah untuk bahas film ini. mengulang dari statement diatas saja. "sempurna". lagian kayanya semua orang juga pasti udah tau film ini. siapapun orangnya bahkan walaupun dia gak suka nonton film india ataupun jarang buat nonton film, tapi kalau disebut film ini ya pasti tau. yakin dah
+
+   itulah kenapa untuk saya film ini sangat layak menjadi film terbaik yang saya tonton sampai sekarang. Entah sampai kapan film ini akan terus bertahan di tahta tertinggi, lets see
+
+2. the shawshank redemption - 1994
+   Film yang membawa saya explore lebih dalam sehingga menjadi suka terhadap film bergenre drama. Buat orang-orang yang cari rekomendasi film lewat rating IMDB, pasti film ini bakal jadi watchlist utama, karena ya udah jelas orang ni film masih jadi film rating tertinggi sampe sekarang
+
+   begitu juga dulu. pas pertama tahu situs IMDB dan coba explore-explore film berdasarkan rating disitu, film ini jadi tontonan pertama. dan hasilnya? ya emang layak tetap jadi yang tertinggi.
+
+   rasanya hangat aja kalo nonton film ini, padahal udah jelas cerita di film ini cukup kelam. pas nonton film inituh rasanya kaya air mengalir aja, tiba-tiba udah mau udahan aja. padahal di film ini gak banyak konflik yang ngasih tensi tinggi, kebanyakan justru lebih ke luruss aja tapi asli gak kerasa bosen sama sekali
+
+   buat yang belum nonton film ini, silakan tonton dan dijamin kalian bakal merasakan salah satu movie experience terbaik yang pernah dirasakan
 
 3. A seperation - 2011
+   wahh khusus yang satu ini kayanya harus banyak spill tipis-tipis, karena yakin banyak orang yang bbahkan belum pernah sama sekali sama film ini.
+
+   bagi yang suka explore-explore film pasti tau lah film ini. Film Iran tahun 2014, garapan sutradara Asgar Farhadi (wajib explore film ni sutradara, gokil-gokil)
+
 4. Gone girl - 2014
    Sebagai pecinta genre thriller tentunya saya akan sangat familiar dengan Divid fincher, salah satu sutradara terbaik dalam membuat film ber genre thriller. Dan jika disuruh memilih apa karya terbaik David Fincher, saya akan menjawab Gone Girl
 
@@ -28,15 +42,17 @@ Film ini menunjukan jika salah satu faktor film dapat disebut bagus adalah dari 
    Semua juga sudah tau lah ya kalo Christopher Nolan merupakan sutradara terbaik dunia, apalagi buat orang-orang yang suka film yang bikin mindblowing beuhhh nolan ahlinya.- 2006
 
 6. Who am i - 2014
+   mungkin untuk yang satu ini emang sedikit subjektif. yaa jelas karena ini di bidang yang sama dengan saya tentunya relate.
 
 7. Big hero 6 - 2014
+   film animasi terbaik at least sampai saat ini. kalo ditanya apa spesialnya saya sendiri pun gak bisa menjawabnya wkwk. entah kenapa
    semisal bisa, tadashi ni layak banget dapet best supporting character.
 
 8. Schindler's list - 1993
    bayangkan, disaat lu bisa meluangkan waktu hampir 4 jam untuk menonton satu film dan lu tidak merasakan jenuh sama sekali
 
 9. 12 angry men - 1957
-   sering ada istliah "lu bisa belajar banyak lewat film" atau list "film yang merubah hidup"
+   sering ada istliah "lu bisa belajar banyak lewat film" atau list "film yang merubah hidup" dan untuk saya film yang paling banyak memberi pelajaran ya film 12 angry men ini. pertama tahu lewat postingan @potonganfilm dan pas liat ada tiga hal yang bikin tertarik, pertama film hitam putih, kedua film satu lokasi
 
 10. Toy story 3 - 2010
     kalo ada orang yang setuju jika toy story itu selesai di film ketiga, saya salah satunya (walaupun toy story 4 tetep nonton juga wkwk)
