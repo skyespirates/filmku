@@ -62,3 +62,44 @@ Film ini menunjukan jika salah satu faktor film dapat disebut bagus adalah dari 
     5 menit terakhir tuh bener2 nunjukin gimana refill kecintaan andy dengan sahabat-sahabatnya dari awal film ini muncul, di momen perpisahan mereka beuhhhh banjir benerrrr
 
     yahhh udah gak perlu ditanya lagi lah ya kenapa banyak orang pastinya setuju kalo ini film sebaiknya selesai, gak usah dilanjut. tapi yaaa namanya juga bisnis, selagi masih ngehasilin cuan mah gas trosss. pentonton cuma bisa nyimak (toh ujung2nya bakal nonton juga kan wkwk)
+
+my name is khan
+whiplash
+a hero
+the godfather
+searching
+drishyam
+the invisible guest
+taken
+bajrangi bhaijaan
+
+a taxi driver
+cek toko sebelah
+slumdog millionaire
+spotlight
+green book
+munafik
+miracle in cell no 7
+children of heaven
+keramat
+shoplifters
+
+joker
+bad genius
+your name
+one day
+the dark knight
+the wolf of the wall street
+1917
+monster inc
+the curious of benjamin case
+the greatest showman
+
+birdman
+detective conan the phantom of baker street
+missing
+perfect stranger
+shutter island
+nussa the movie
+django unchained
+10 november
