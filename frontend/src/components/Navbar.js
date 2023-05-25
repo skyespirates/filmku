@@ -6,13 +6,15 @@ const Navbar = () => {
   const location = useLocation();
   const page = location.pathname.split('/')[1];
   const [toggle, setToggle] = useState(false);
+
   return (
     <div className="sticky top-0 z-30 px-12 bg-black shadow-xl" style={{ backgroundColor: '#1B2124' }}>
-      <div onClick={() => setToggle(!toggle)} className="relative flex flex-col px-2 py-6 mx-auto cursor-pointer max-w-7xl md:flex-row md:justify-between">
+      <div className="relative flex flex-col px-2 py-6 mx-auto cursor-pointer max-w-7xl md:flex-row md:justify-between">
+        {/* logo kiri */}
         <Link id="logo" className="text-2xl font-bold text-blue-700 md:text-4xl" style={{ color: '#1677ff' }} to="/">
           FILMKU
         </Link>
-        <div className="absolute z-10 flex items-center justify-center w-6 h-6 rounded-full md:hidden top-3 right-3">
+        <div onClick={() => setToggle(!toggle)} className="absolute z-10 flex justify-center w-6 h-6 align-middle rounded-full md:hidden right-3">
           <ion-icon size="large" name="menu-outline"></ion-icon>
         </div>
         <ul className={`text-xl md:text-xl items-center justify-center md:justify-end  w-full  md:flex ${toggle ? 'block' : 'hidden'}`}>
@@ -37,9 +39,14 @@ const Navbar = () => {
               </li>
             </>
           )}
-          <li>
-            <hr className="ml-5 mr-10" style={{ backgroundColor: 'white', borderLeft: '1px solid rgba(255,255,255,0.5)', height: '40px', width: '1px' }} />
-          </li>
+          {toggle ? (
+            <></>
+          ) : (
+            <li>
+              <hr className="ml-5 mr-10" style={{ backgroundColor: 'white', borderLeft: '1px solid rgba(255,255,255,0.5)', height: '40px', width: '1px' }} />
+            </li>
+          )}
+
           <li className="text-center ">
             <Link className="block py-1 mx-auto text-white md:py-0 hover:text-blue-300 hover:font-bold" to="/movies">
               Database

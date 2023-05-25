@@ -8,7 +8,7 @@ const Fitur = () => {
           </div>
           <div className="mt-6 text-4xl font-semibold text-center ">Berbagai Genre</div>
         </div>
-        <div className="grid h-56 bg-transparent justify-items-center w-50">
+        <div className="hidden h-56 bg-transparent md:grid justify-items-center w-50">
           <div className="flex items-center justify-center w-40 h-36 rounded-xl" style={{ backgroundColor: '#1B2124' }}>
             <ion-icon name="calendar-outline" className="items-center" style={{ color: '#04B6F6', fontSize: '112px' }}></ion-icon>
           </div>

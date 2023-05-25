@@ -63,10 +63,10 @@ const Film = () => {
 
       <div className="py-16 text-white" style={{ backgroundColor: '#1B2124' }}>
         <div className="flex justify-center ">
-          <div className="px-8 py-1 mx-6 bg-transparent border rounded-full hover:text-blue-300" onClick={handlePrev} style={{ border: '3px solid #04A3DD' }}>
+          <div className="px-8 py-1 mx-6 bg-transparent border rounded-full cursor-pointer hover:text-blue-300" onClick={handlePrev} style={{ border: '3px solid #04A3DD' }}>
             Sebelumnya
           </div>
-          <div className="px-8 py-1 mx-6 bg-transparent border rounded-full hover:text-blue-300" onClick={handleNext} style={{ border: '3px solid #04A3DD' }}>
+          <div className="px-8 py-1 mx-6 bg-transparent border rounded-full cursor-pointer hover:text-blue-300" onClick={handleNext} style={{ border: '3px solid #04A3DD' }}>
             Selanjutnya
           </div>
         </div>
