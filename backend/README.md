@@ -15,76 +15,101 @@ To deploy this project run :
 
    film ini pula lah yang bawa saya kepada film ajaib dari Aamir khan lainnya, salah satu sutradara terbaik sepanjang masa.
 
-   Walaupun masih menggunakan skema film india pada umumnya yang, keaya durasi hampir 3 jam, banyak nyanyi sama jogednya, tapi tetep semuanya gak menganggu keseruan dari film. bahkan menurut saya lagu-lagu di film ini salah satu yang bagus dibanding film india lainnya.
+   Walaupun masih menggunakan skema film india pada umumnya kaya durasi hampir 3 jam, banyak nyanyi sama jogednya, tapi tetep semuanya gak menganggu keseruan dari film ini. bahkan menurut saya lagu-lagu di film ini salah satu yang terbagus dibanding film india lainnya.
 
-   gak banyak kata lagi dah untuk bahas film ini. cukup satu kata: "sempurna". saya yakin se gak sukanya orang sama film india, tapi kalau ditanya film ini pasti suka. yakin dah
+   gak banyak kata lagi dah untuk bahas film ini, cukup satu kata: "sempurna". saya yakin se gak sukanya orang sama film india, tapi kalau ditanya film ini pasti suka. asli cuy.
 
    itulah kenapa bagi saya film ini layak babget jadi film terbaik yang saya tonton sampai sekarang. Entah sampai kapan film ini bakal terus bertahan di tahta tertinggi. lets see boyzz
 
 2. the shawshank redemption - 1994
    Buat orang-orang yang cari rekomendasi film lewat rating IMDB, pasti film ini bakal jadi watchlist utama, iyalah orang ini film masih jadi film dengan rating tertinggi.
 
-   begitu juga dulu. pas pertama tahu situs IMDB dan coba explore-explore film berdasarkan rating disitu, film ini jadi tontonan pertama. dan hasilnya? ya emang layak dapet rating segitu.
+   begitu juga saya dulu. pas pertama tahu situs IMDB dan coba explore-explore film berdasarkan rating disitu, film ini jadi tontonan pertama. dan hasilnya? ya emang layak dapet rating segitu.
 
    rasanya hangat aja kalo nonton film ini, padahal udah jelas cerita di film ini cukup kelam. pas nonton film inituh rasanya kaya air ngalir, tiba-tiba udah mau udahan aja. padahal di film ini gak banyak konflik yang ngasih tensi tinggi, kebanyakan justru lebih ke lurus aja. tapi gak kerasa bosen sama sekali.
 
    buat yang belum nonton film ini, silakan tonton dan dijamin kalian bakal merasakan salah satu movie experience terbaik yang pernah kalian rasakan.
 
 3. A seperation - 2011
-   khusus yang satu ini kayanya harus banyak spill tipis-tipis, karena yakin banyak orang yang bahkan belum pernah sama sekali tau sama ini film.
+   khusus yang satu ini kayanya harus banyak spill tipis-tipis, karena pasti banyak orang yang bahkan belum pernah denger sama sekali sama film ini.
 
-film iran karya sutradara terkenal disana Asghar Farhadi. bercerita tentang rumah tangga nader dan termeh yang berada di ambang perceraian, dan dari sinilah muncul masalah-masalah yang terjadi.
+film iran karya sutradara terkenal disana Asghar Farhadi. ceritanya ya suami istri yang mau cerai dan lagi bahas hak asuh anaknya, eh tiba-tiba masalah demi masalah datang.
 
-pokoknya kalau kalian nonton film ini, kalian pasti ngerasain betapa jeniusnya sutradara Asghar farhadi. susah pokoknya kalau diceritain, tonton aja langsung.
+di film ini bener-bener ditunjukin kejeniusan seorang Asghar Farhadi. padahal premisnya simpel tapi ceritanya keren banget dan bisa manjang kemana-mana. dan satu hal yang bikin film ini keren tuh karena film ini manusiawai. semua hal di film ini serasa bener-bener kejadian nyata yang mungkin aja terjadi pada siapapun.
+
+film ini lir ibarat kita nonton potongan kisah hidup manusia, gak perlu tau awalnya gimana dan gak perlu tahu akhirnya bakal kaya apa.
+
+standing applause asli pas selesai nonton. tonton aja langsung, wajibbbb.
 
 4. Gone girl - 2014
-   sebagai pecinta film thriller, sudah pasti gone girl bakal jadi film thriller terfavorit.
+   sebagai pecinta film thriller, karya sutradata david fincher yang disebut-sebut sutradata film thriller terbaik pasti jadi tontonan wajib. dan kalau ditanya mana yang terbaik, buat saya gone girl jawabannya.
 
-ditambah digarap oleh david fincher,
+mungkin jika ditanya film david fincher terbaik pasti orang-orang lebih banyak jawab Fight Club atau The Social Network. tapi buat saya gone girl ini masih jadi yang terbaik.
 
-mungkin jika ditanya film david fincher terbaik pasti orang-orang lebih banyak jawab Fight Club atau The Social Network. tapi buat saya gone girl ini masih jadi yang terbaik
+film thriller tanpa adegan horror, darah-darahan (ada si dikit) tapi tetep bisa bikin jantung lu deg-degan. apalagi pas setengah babak film dijamin pasti bikin melongo coy. langsung dah ngedumel "ahhh ternyata gini".
 
-ohiya, berkat film ini bikin saya percaya kalau akting aktor jadi salah satu faktor yang buat film bisa bagus banget. acting rosamund pike di film ini bener bener luar biasa. salah satu acting terbaik yang pernah saya tonton
+dan yang pasti, faktor yang bikin film ini keren banget. sudah jelas akting Rosamund Pike sebagai Amy. berkat film ini bikin saya percaya kalau akting aktor jadi salah satu faktor yang buat film bisa bagus banget.
+
+akting rosamund pike di film ini bener bener luar biasa. salah satu akting terbaik yang pernah saya tonton. saya sendiri yang nonton ngerasain banget betapa manipulatif dan mengerikannya tokoh Amy disini.
 
 5. The prestige - 2006
 
-   Semua juga sudah tau lah ya kalo Christopher Nolan merupakan sutradara terbaik dunia, apalagi buat orang-orang yang suka film yang bikin mindblowing beuhhh nolan ahlinya.
+"belum jadi pecinta film lu kalau belum nonton film Christopher Nolan". gibahan orang-orang yang cukup nyebelin kalau lagi bahas film. walaupun saya sendiri mengakui kalau nolan ini emang salah satu sutradara terbaik sepanjang masa
+
+ngomongin film nolan yang konon terkenal akan mindblowing dan bikin otak pusing, ada satu film yang saya berani kasih rate 10/10. bukan inception, bukan The dark knight ataupun interstellar. jawabannya The prestige
+
+buat saya The prestige ini jadi film nolan yang paling bisa dinikmati dibanding film mindblowing dia lainnya. tetep bikin pusing, tapi penonton bisa ngikutin ceritanya dengan aman dan nyaman.
+
+seru banget liat batman battle sama wolverine. bukan lewat pertempuran, tapi lewat trik sulap.
+
+apalagi ending film ini masih bikin saya belum bisa berdamai. karena saya sendiri masih banyak pertanyaan buat bahas ending filmnya. dan sampai sekarang belum terjawab.
 
 6. Who am i - 2014
-   mungkin untuk yang satu ini emang sedikit subjektif. yaa jelas karena ini di bidang yang sama dengan saya tentunya relate.
+   mungkin untuk yang satu ini emang sedikit subjektif. ya jelas karena ini sangat relate dengan bidang yang saya tekuni.
 
-   tapi asli dah, dari semua film heker=hekeran yang pernah ditonton, ini film emang beda. gak cuma ngandelin konsep hacker yang memang sudah cukup mindblowing dari sononya, tapi story line filmnya juga bagus banget.
+   tapi asli dah, dari semua film heker-hekeran yang pernah ditonton, ini film emang beda. gak cuma ngandelin konsep hacker yang memang sudah cukup keren dari sononya, tapi story line filmnya juga bagus banget.
 
    ini film bener-bener punya cerita yang sangat dinikmati banget buat penontonnya. ditambah endingnya yang beuhhh, cakep dah pokoknya.
 
-kapan lagi kalian punya niatan buat nonton film dari Jerman, pasti mayoritas orang yang nonton film ini di Indonesia jika film ini jadi film pertama atau bahkan satu-satunya film jerman yang pernah ditonton wkwk
-
-ya bukti lah kalau negara-negara yang gak terlalu terdengar dunia per-filmannya ternyata bisa bikin film yang keren juga
+   porsi hacker disini juga pas, gak berlebihan tapi tetep on point. walaupun ceritanya rumit tapi masih gampang diikuti.
 
 7. Big hero 6 - 2014
-   film animasi terbaik at least sampai saat ini. kalo ditanya apa spesialnya saya sendiri pun gak bisa menjawabnya wkwk. entah kenapa
-   semisal bisa, tadashi ni layak banget dapet best supporting character.
+   film animasi terbaik at least sampai saat ini. kalo ditanya apa spesialnya saya sendiri pun keknya gak bisa jawab wkwk. gak tau kenapa dah
+
+   seru aja dah pokoknya nonton film ini. action, adventure, comedy, bahkan momen sedih dapet semua. mau ditonton anak kecil ataupun orang yang udah punya anak keknya bakal suka-suka aja sama ni film
 
 8. Schindler's list - 1993
    bayangkan, disaat lu bisa meluangkan waktu hampir 4 jam untuk menonton satu film dan lu tidak merasakan jenuh sama sekali, pasti ada yang spesial sama film itu
 
-   itulah yang saya rasakan pas nonton film ini. ekspektasi besar pastinya dong, salah satu top rated movie di imdb gak mungkin dong filmnya biasa-biasa aja.
+   itu yang saya rasakan pas nonton film ini. ekspektasi besar pastinya dong, salah satu top rated movie di imdb gak mungkin dong filmnya biasa-biasa aja. dan ternyata memang terbukti, ini film masterpiece.
 
-   dan memang terbukti cuy ini film masterpiece. sajian-sajian yang ditampilkan tuh bener-bener bisa mereka adegan kan tujuan dari film ini.
+   Perjuangan seorang Oskar Schindler buat nyelametin para pegawainya yang beragama yahudi. yang saya suka dari film ini yaitu perubahan karakter seorang Schindler dari yang awal cuma peduli sama hartanya aja menjadi sosok pahlawan pelindung dari orang-orang yang terancam dibantai.
+
+   3 jam 15 menit yang sangat worth it. silakan luangkan waktu untuk bisa menikmati film ini
 
 9. 12 angry men - 1957
-   sering ada istliah "lu bisa belajar banyak lewat film" atau list "film yang merubah hidup" dan untuk saya film yang paling banyak memberi pelajaran ya film 12 angry men ini. pertama tahu lewat postingan @potonganfilm dan pas liat ada tiga hal yang bikin tertarik, pertama film hitam putih, kedua film satu lokasi
+   kalau misal ditanya, "film apa yang paling banyak memberi pelajaran" jawabannya ya film 12 angry men ini.
+
+   pertama tahu lewat postingan @potonganfilm dan pas liat filmnya hitam putih dan cuma di satu lokasi, ya auto tertarik lah. dan ternyata beuhh keren parah cuy filmnya
+
+   pokoknya film ini jadi film yang merubah hidup saya, bukan bermaksud lebay tapi emang gitu kenyatannya. berkat film ini saya belajar untuk selalu memandang suatu hal dari kedua sisi, selain itu saya juga belajar untuk tidak pernah berfanatik terhadap sesuatu.
+
+   dan prinsip tersebut masih saya pegang sampai sekarang, tentunya berkat film ini.
+
+   high recomend buat siapapun. karakternya keren-keren, ceritanya padet, konsep film satu lokasi pun bener-bener dimaksimalin disini. dan yang pasti, kapan lagi kalian nonton film keluaran tahun 1957.
 
 10. Toy story 3 - 2010
-    kalo ada orang yang setuju jika toy story itu selesai di film ketiga, saya salah satunya (walaupun toy story 4 tetep nonton juga wkwk)
-    sebenernya saya termasuk orang yang gak terlalu wahh banget untuk toy story franchise ini. pas pertama nonton toy story satu di rcti pun rasanya cuma sekedar oke, masih lebih suka kartun lain macam the reef, a bug's life ataupun monsters inc.
-    saat awal launching toy story 3, masih inget banget pas itu pertama nonton di rumah temen lewat kaset vcd. lumayan excited karena kan taunya toy story cuma ada dua (dan ternyata filmnya juga belum lama nongol wkwk). film ini jadi salah satu film yg ditonton berkali-kali nobar sama saudara kalo lagi dibur sekolah atau lebaran, karena ceritanya emang sebagus itu.
-    Dari segi penceritaan dibanding dua pendahulunya jauh banget, belum lagi sosok antagonis di film ini kayanya paling bikin kampret. sosok lotso ini emang mantep dah ngeselinnya. dan yang pasti semua orang setuju, hal yang paling spesial di film ini sudah jelas, Endingnya :"
-    5 menit terakhir tuh bener2 nunjukin gimana refill kecintaan andy dengan sahabat-sahabatnya dari awal film ini muncul, di momen perpisahan mereka beuhhhh banjir benerrrr
+    kalo ada orang yang setuju jika toy story itu selesai di film ketiga, saya lah salah satunya wkwk
 
-    yahhh udah gak perlu ditanya lagi lah ya kenapa banyak orang pastinya setuju kalo ini film sebaiknya selesai, gak usah dilanjut. tapi yaaa namanya juga bisnis, selagi masih ngehasilin cuan mah gas trosss. pentonton cuma bisa nyimak (toh ujung2nya bakal nonton juga kan wkwk)
+    tapi asli cuy, toy story tuh harusnya selesai di toy story 3 aja.
 
-- my name is khan
+    karena film topy story 3 ini bener-bener perfect untuk jadi penutup kisah persahabatan woody dkk bersama andy. jujur aja ni, sebagai orang yang suka banget sama franchise toy story, toy story 3 ini bener-bener luar biasa.
+
+    yang paling unggul dibanding dua film sebelumnya ya udah jelas ceritanya. ditambah lotso disini bener-bener jadi super villain terbaik, sukses bikin kesel semua orang yang nonton.
+
+    dan ending dari film ini waduhhhh kacau parah dah, bawang semua disitu.
+
+11. my name is khan
 
 pertama kali nonton film ini pas kelas 5 sd,
 scoring musiknya masih suka didengerin sampai sekarang.
