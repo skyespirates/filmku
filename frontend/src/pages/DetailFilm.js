@@ -32,22 +32,24 @@ const DetailFilm = () => {
           <h1 className="text-xl text-white">Loading...</h1>
         ) : (
           <div className="max-w-5xl mx-auto pt-9">
-            <div className="mb-6 head">
-              <h1 className="text-xl font-semibold text-white capitalize md:text-3xl">{films.title} </h1>
+            {/* title */}
+            <div className="mb-6 text-center md:text-left head">
+              <h1 className="text-2xl font-semibold text-white capitalize md:text-3xl">{films.title} </h1>
               <p className="text-sm text-white md:text-base">{films.year}</p>
             </div>
             <div className="flex flex-col md:flex-row body">
-              <div className="relative flex-shrink-0 mb-6 mr-6 overflow-hidden bg-gray-900 detail">
-                <img className="absolute object-cover w-full h-full" src={image} alt={films.title} />
+              {/* image */}
+              <div className="relative flex-shrink-0 block mx-auto mb-6 overflow-hidden bg-gray-900 md:mr-6 detail">
+                <img className="absolute object-cover w-full h-full " src={image} alt={films.title} />
               </div>
-              <div className="text-sm text-black-400 md:text-base">
+              {/* description */}
+              <div className="text-sm text-justify text-black-400 md:text-base">
                 <p className="mb-6 text-white normal-case" dangerouslySetInnerHTML={{ __html: films.description }} />
-                {/* <p className="mb-6 text-white" dangerouslySetInnerHTML={{ __html: contoh }} /> */}
               </div>
             </div>
-            <div className="pb-8 text-center">
+            <div className="py-8 text-center">
               <Link
-                className="mx-3 my-1 text-xs font-semibold text-white bg-transparent rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 md:px-8 md:py-2 md:text-base"
+                className="px-8 py-2 mx-3 my-1 text-xs font-semibold text-white bg-transparent rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 md:text-base"
                 style={{ border: '3px solid #04A3DD' }}
                 to={`/film`}
               >

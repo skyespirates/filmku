@@ -109,7 +109,7 @@ apalagi ending film ini masih bikin saya belum bisa berdamai. karena saya sendir
 
     dan ending dari film ini waduhhhh kacau parah dah, bawang semua disitu.
 
-11. my name is khan
+- my name is khan
 
 pertama kali nonton film ini pas kelas 5 sd,
 scoring musiknya masih suka didengerin sampai sekarang.
