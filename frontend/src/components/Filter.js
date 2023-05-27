@@ -81,7 +81,7 @@ const Filter = ({ filteredResult, setFilteredResult, currentPage, setCurrentPage
     <div className="py-16 text-white" style={{ backgroundColor: '#1B2124' }}>
       <div className="flex flex-row content-center justify-center">
         {/* filter genre */}
-        <div className="mx-16 cursor-pointer">
+        <div className="cursor-pointer md:mx-16">
           <div
             onClick={getOpenGenre}
             className="inline-flex items-center px-8 py-2 text-base font-medium text-center text-white bg-transparent rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -144,7 +144,7 @@ const Filter = ({ filteredResult, setFilteredResult, currentPage, setCurrentPage
         </div>
 
         {/* filter tahun */}
-        <div className="mx-16 cursor-pointer">
+        <div className="cursor-pointer md:mx-16">
           <div
             onClick={getOpenYear}
             className="inline-flex items-center px-8 py-2 text-base font-medium text-center text-white bg-transparent rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
