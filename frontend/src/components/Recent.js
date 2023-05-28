@@ -6,11 +6,11 @@ const Recent = () => {
   const [film, setFilm] = useState([]);
   const [recent, setRecent] = useState([]);
   const id = Math.floor(Math.random() * 10) + 1;
-  const image = `http://localhost:4000/images/1675695044803-image.png`;
+  const image = `http://localhost:4000/images/1684997163098-image.png`;
 
   useEffect(() => {
     const getFilms = () => {
-      axios.get(`http://localhost:4000/api/v1/movies/63e113c6cf2eba276f1549ac`).then((res) => {
+      axios.get(`http://localhost:4000/api/v1/movies/646f042b61998f671f24add9`).then((res) => {
         const persons = res.data;
         setFilm(persons.movie);
         // console.log(film.title);
