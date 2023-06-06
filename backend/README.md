@@ -10,51 +10,15 @@ To deploy this project run :
 
 ## bahan isian
 
-- drishyam
-
-buat kalian yang nganggap film India cuma joget sama nyanyi-nyanyi doang, pastiin kalian nonton film ini.
-
-salah satu film thriller india terbaik. nyeritain seorang bapak yang hidup bahagia sama keluarganya, sampai suatu ketika datang suatu kejadian yang mengancam kebahagiaan keluarganya.
-
-pokoknya ceritanya mantep banget dah, beda dari skema film india pada umumnya. film ini juga terkenal banget di negaranya, saking terkenalnya sampe beberapa kali di remake di berbagai daerah di India. kalau yang saya tonton yang versi hindi, tapi kalau mau originalnya bisa tonton yang tamil.
-
-tapi tenang gak perlu bingung, soalnya semua versi filmnya sama persis ceritanya, beda tokohnya aja. jadi gak masalah mau nonton yang versi manapun. yang penting tuh kalian harus sempetin nonton filmnya, dijamin gak bakal nyesel
-
-- the invisible guest
-
-mungkin film ini salah satu film eropa yang legend akan plot twistnya.
-
-- taken
-
-tema film balas dendam? ini salah satu yang terbaik. bahkan buat saya ini memang yang terbaik.
-
-apalagi aktornya liam neeson yang emang udah terkenal aktor film action. pokoknya asik banget dah liat bruce (liam neeson) coba nyari anaknya yang diculik. yang bikin seru dari film ini bener-bener ngeliatin kemampuan seorang bruce yang mantan polisi dalam upaya nyari anaknya, detail-detail kecilnya ituloh saitsfying banget liatnya
-
-disini juga ada salah satu scene film terfavorit yaitu pas bruce wayne nerima telepon dari penculiknya. asli memorable banget
-
-- bajrangi bhaijaan
-
-gak cuma bikin mewek, tapi film ini juga bisa ngangkat isu dua negara yang sebenrnya gak gampang loh.
-
-tapi disini bener-bener berhasil cuy, isu yang diangkat bener-benr berhasil. akting salman khan sama di anak kecilnya juga cakep banget
-
-- a taxi driver
-
-  film ini berhasil menggocek saya lewat posternya.
-  pas pertama kali liat posternya, dikira ini film genre comedy eh ternyata jauh banget coy
-
-  film yang ngangkat salah satu peristiwa bersejarah di korea yaitu tragedi gwangju, nyeritain seorang supir taksi yang mau nganter wartawan asing buat ngeliput tragedi disana. dan disinilah ceritanya dimulai.
-
-  emang ya kalau film yang bersangkutan sama sejarah tuh selalu bikin lebih relate ke penontonnya. buat saya salah satu film korea terbaik. pokoknya wajib ditonton
-
 - cek toko sebelah
 
-  nahh kalau ditanya film indonesia terbaik, sepertinya jawaban saya akan tertuju sama ini film
+nahh kalau ditanya film indonesia terbaik, sepertinya jawaban saya akan tertuju sama film ini.
 
-  bisa dikatakan film ini salah satu film yang sempurna dalam memenuhi aspek film drama komedi. jujur saya jarang banget nonton film komedi indonesia yang bikin ketawa-ketawa, tapi beda sama film ini.
-  komedinya dapet banget, dan yang pasti ceritanya juga tetep diperhatiin. ansamble case juga lumayan bagus juga, semua dapat porsi masing-masing
+bisa dikatakan film ini salah satu film yang sempurna dalam memenuhi aspek film drama komedi. jujur saya jarang banget nonton film komedi indonesia yang bikin ngakak banget, tapi beda sama film ini.
 
-  overall sampai saat ini, ini masih yang terbaik di Indonesia
+komedinya dapet banget, dan yang pasti ceritanya juga tetep diperhatiin. ansamble case juga bagus, semua dapat porsi masing-masing.
+
+overall sampai saat ini, Cek Toko Sebelah masih menjadi yang terbaik di Indonesia.
 
 - slumdog millionaire
 
