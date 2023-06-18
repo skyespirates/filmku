@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
-import axios from 'axios';
-import { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
+import axios from "axios";
+import { useEffect, useState } from "react";
 
 const Recent = () => {
   const [film, setFilm] = useState([]);
@@ -10,16 +10,20 @@ const Recent = () => {
 
   useEffect(() => {
     const getFilms = () => {
-      axios.get(`http://localhost:4000/api/v1/movies/646f042b61998f671f24add9`).then((res) => {
-        const persons = res.data;
-        setFilm(persons.movie);
-        // console.log(film.title);
-      });
+      axios
+        .get(`http://localhost:4000/api/v1/movies/646f042b61998f671f24add9`)
+        .then((res) => {
+          const persons = res.data;
+          setFilm(persons.movie);
+          // console.log(film.title);
+        });
     };
     getFilms();
   }, []);
 
-  const deskrip = film.description ? film.description.substring(0, 150) + '...' : '';
+  const deskrip = film.description
+    ? film.description.substring(0, 150) + "..."
+    : "";
 
   return (
     // <div className="bg-black" style={{ backgroundColor: '#1B2124', height="640px"}}>
@@ -42,20 +46,32 @@ const Recent = () => {
     //   </div>
     // </div>
 
-    <div id="recent" className="flex h-10 px-12 pt-20 pb-20 bg-black" style={{ backgroundColor: '#1B2124' }}>
+    <div id="recent" className="flex h-10 px-12 pt-20 pb-20 bg-background">
       {/* <div className=""> */}
       {/* <div className=""> */}
       {/* image */}
       {/* <div className=""> */}
-      <img className="flex-none object-contain w-48 mr-20 md:w-96" src={image} alt="gambar" />
+      <img
+        className="flex-none object-contain w-48 mr-20 md:w-96"
+        src={image}
+        alt="gambar"
+      />
       {/* </div> */}
       {/* content */}
       <div className="flex-1 text-justify text-white md:leading-10">
-        <h1 className="text-3xl font-semibold capitalize md:text-5xl">{film.title}</h1>
+        <h1 className="text-3xl font-semibold capitalize md:text-5xl">
+          {film.title}
+        </h1>
         <h3 className="mb-10 text-xl font-bold">{film.year}</h3>
-        <p className="mb-10 text-xs leading-5 text-justify normal-case md:leading-10 md:text-xl " dangerouslySetInnerHTML={{ __html: deskrip }}></p>
+        <p
+          className="mb-10 text-xs leading-5 text-justify normal-case md:leading-10 md:text-xl "
+          dangerouslySetInnerHTML={{ __html: deskrip }}
+        ></p>
         <div>
-          <Link className="px-3 py-1 text-xs rounded-full md:font-semibold md:px-9 md:py-3 md:text-2xl" to={`/film/${film._id}`} style={{ backgroundColor: '#04A3DD' }}>
+          <Link
+            className="bg-primary px-3 py-1 text-xs rounded-full md:font-semibold md:px-9 md:py-3 md:text-2xl"
+            to={`/film/${film._id}`}
+          >
             Selengkapnya
           </Link>
         </div>
