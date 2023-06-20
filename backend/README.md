@@ -10,59 +10,29 @@ To deploy this project run :
 
 ## bahan isian
 
-- cek toko sebelah
+- children of heaven
 
-nahh kalau ditanya film indonesia terbaik, sepertinya jawaban saya akan tertuju sama film ini.
+salah satu film masa kecil paling spesial. di setiap momen libur panjang seperti lebaran dan tahun baru selalu nungguin film ini tayang di televisi
 
-bisa dikatakan film ini salah satu film yang sempurna dalam memenuhi aspek film drama komedi. jujur saya jarang banget nonton film komedi indonesia yang bikin ngakak banget, tapi beda sama film ini.
+film hangat yang bener-bener bisa menyimpan kenangan masa kecil. mana ceritanya juga tentang anak kecil semua lagi.
 
-komedinya dapet banget, dan yang pasti ceritanya juga tetep diperhatiin. ansamble case juga bagus, semua dapat porsi masing-masing.
+storynya yang ringan dan menyentuh hati memang cocok sebagai film yang ditonton bersama keluarga.
 
-overall sampai saat ini, Cek Toko Sebelah masih menjadi yang terbaik di Indonesia.
+- keramat
 
-- slumdog millionaire
-
-  awal-awal saya suka film dengan embel-embel based on true story ya karena film ini.
-
-  nonton film ini kaya denger cerita dongeng yang padahal kisah nyata. bagus banget penceritaannya.
-
-- spotlight
-  waktu itu saya nonton film Zodiac karya david fincher, dan entah kenapa saya kurang suka sama ini film. padahal saya cukup ekspektasi besar gara-gara banyaknya review bagus. yaudah lah lewat
-
-beberapa hari kemudian saya nonton film ini. dan ternyata konsep ceritanya hampir sama kaya film zodiac, tentany sekelompok orang yang sedang meneylidiki suatu kasus.
-
-dan ternyata filmnya bagus banget. padahal saya gak ada ekspektasi apa-apa
+film yang membuat saya suka konsep film found footage.
+saya tidak terlalu suka film horror, tapi itu menjadi pengecualian untuk film yang satu ini.
+orisinalitasnya dapet banget sebagai film found footage. kayanya gak bakal ada yang ngalahin even dibuat film dengan konsep serupa (buktinya dapat dilihat dari sequelnya)
+konsep horrornya gak dilebih-lebihkan tapi tetep bikin ngeri. (SPOILER!!!) apalagi adegan legend pocong depan kameramen, sampe sekarang kalo ditonton masih serem cuyyy
+salah satu film indonesia yang wajib ditonton
 
 - green book
 
-film tema persahabatan dan diangkat dari kisah nyata. setidaknya dua hal itu sudah jadi jaminan kenapa saya suka sama ini film
+film bertemakan persahabatan dan diangkat dari kisah nyata. setidaknya dua hal itu sudah jadi jaminan kenapa saya suka sama film ini.
 
 bukan sekedar embel-embel film pemenang oscar, tapi ya filmnya memang bagus. ceritanya mulus, actingnya pada bagus, eksekusinya juga mantep dan gak ngebosenin. walaupun ada satu hal yang gak saya suka (pasti tau kalo udah nonton), tapi gak terlalu mengganggu kok.
 
 pokoknya ini tipe film yang cocok ditonton nobar sama temen-temen atau keluarga besar.
-
-- munafik
-
-  kalau pengen cari film horror religi, sejauh ini munafik masih yang terbaik
-
-  ngerinya dapet, makna dari filmnya juga nyampe. gak menggurui tapi kesan pesan yang pengen disampaikan ke penonton juga dapet.
-
-  horror indo harus belajar banyak nih kalau mau bikin horror religi.
-
-- miracle in cell no 7
-  istilah yang lekat sekali dengan ini film adalah "film yang bisa bikin kalian nangis". tapi faktanya memang begitu.
-  dari awal film saya sendiri sudah menebak-nebak "emang sesedih apa dah ni film" dan ternyata emang sedih banget cuyyy
-
-- children of heaven
-  wahhh kalau ada yang bertanya film apa yang bisa mengingatkan kalian dengan memori masa kecil, tentu buat saya ini salah satunya
-  film yang selalu muncul setiap hari libur di televisi dan pastinya gak boleh absen ditonton oleh satu keluarga
-
-- keramat
-  film yang membuat saya suka konsep film found footage.
-  saya tidak terlalu suka film horror, tapi itu menjadi pengecualian untuk film yang satu ini.
-  orisinalitasnya dapet banget sebagai film found footage. kayanya gak bakal ada yang ngalahin even dibuat film dengan konsep serupa (buktinya dapat dilihat dari sequelnya)
-  konsep horrornya gak dilebih-lebihkan tapi tetep bikin ngeri. (SPOILER!!!) apalagi adegan legend pocong depan kameramen, sampe sekarang kalo ditonton masih serem cuyyy
-  salah satu film indonesia yang wajib ditonton
 
 - shoplifters
   film paling jujur disaat semua tokoh dalam film ini adalah pembohong. ironi memang
