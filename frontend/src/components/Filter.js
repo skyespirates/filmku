@@ -125,11 +125,11 @@ const Filter = ({ filteredResult, setFilteredResult, currentPage, setCurrentPage
             <ul className={`py-1 ${openCountry ? 'show' : 'hidden'} `} aria-labelledby="dropdownDividerButton">
               <li
                 onClick={() => {
-                  pickCountry('Indonesia');
+                  pickCountry('Nasional');
                 }}
                 className="block px-4 py-2 text-base text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
               >
-                <p>Indonesia</p>
+                <p>Nasional</p>
               </li>
               <li
                 onClick={() => {
