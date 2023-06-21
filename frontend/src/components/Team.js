@@ -2,7 +2,10 @@ import { team } from "../data";
 import Card from "./Card";
 const Team = () => {
   return (
-    <div id="team" className="px-12 pt-20 text-white bg-background">
+    <div
+      id="team"
+      className="px-12 pt-20 text-white bg-background min-h-screen"
+    >
       <div className="flex flex-col items-center justify-center h-full pb-6 mx-auto max-w-7xl">
         <h1 className="py-8 text-4xl font-bold text-center md:text-5xl ">
           Kontak

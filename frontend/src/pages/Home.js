@@ -7,7 +7,7 @@ import Team from "../components/Team";
 
 const Home = () => {
   return (
-    <div className="bg-background">
+    <div className="bg-background overflow-hidden">
       <Hero />
       <About />
       <Recent />

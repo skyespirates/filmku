@@ -1,6 +1,17 @@
+import { motion } from "framer-motion/dist/framer-motion";
+
 const Card = ({ content }) => {
   return (
-    <div className="bg-surface flex flex-col items-center justify-center p-8 mb-6 rounded-lg ">
+    <motion.div
+      initial={{ y: "100%", opacity: 0 }}
+      whileInView={{
+        x: 0,
+        y: 0,
+        opacity: 1,
+        transition: { duration: 0.4, ease: "easeIn" },
+      }}
+      className="bg-surface flex flex-col items-center justify-center p-8 mb-6 rounded-lg "
+    >
       <div className="relative w-24 h-24 mb-6 overflow-hidden">
         <img
           className="object-cover w-full h-full rounded-full "
@@ -46,7 +57,7 @@ const Card = ({ content }) => {
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
