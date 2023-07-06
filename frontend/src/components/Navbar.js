@@ -8,12 +8,12 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <div className="sticky top-0 z-30 px-12 bg-surface shadow-xl">
+    <div className="sticky top-0 z-30 px-12 shadow-xl bg-surface">
       <div className="relative flex flex-col px-2 py-3 mx-auto cursor-pointer max-w-7xl md:flex-row md:justify-between">
         {/* logo kiri */}
         <Link
           id="logo"
-          className="text-2xl font-bold text-primary flex items-center"
+          className="flex items-center text-2xl font-bold text-primary"
           style={{ color: "#1677ff" }}
           to="/"
         >
@@ -40,7 +40,7 @@ const Navbar = () => {
               </NavLink>
             </li>
           )}
-          {page === "film" ? null : (
+          {page === "" ? (
             <>
               <li className="px-5 text-center">
                 <a
@@ -59,6 +59,8 @@ const Navbar = () => {
                 </a>
               </li>
             </>
+          ) : (
+            ""
           )}
           {toggle ? (
             <></>
@@ -76,7 +78,7 @@ const Navbar = () => {
             </li>
           )}
 
-          <li className="text-center ">
+          <li className="text-center">
             <NavLink
               className="block mx-auto text-white hover:text-secondary md:py-0 "
               to="/movies"

@@ -1,12 +1,12 @@
 import "@themesberg/flowbite";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Film from "./pages/Film";
-import Form from "./pages/Form";
-import DetailFilm from "./pages/DetailFilm";
-import Movies from "./pages/Movies";
-import Movie from "./pages/Movie";
+import Navbar from "components/Navbar";
+import Home from "pages/Home";
+import Film from "pages/Film";
+import Form from "pages/Form";
+import DetailFilm from "pages/DetailFilm";
+import Movies from "pages/Movies";
+import Movie from "pages/Movie";
 
 function App() {
   return (

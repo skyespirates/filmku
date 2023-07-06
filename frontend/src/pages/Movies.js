@@ -3,6 +3,10 @@ import { Spin, Card, Row, Col } from "antd";
 import useGetMovies from "../hooks/useGetMovies";
 import { Link } from "react-router-dom";
 import { StarFilled } from "@ant-design/icons";
+
+// Custom Components
+import MovieCard from "components/MovieCard";
+
 function Movies() {
   // const [movies, setMovies] = useState(null);
 
@@ -40,8 +44,6 @@ function Movies() {
     [isFetchingNextPage, fetchNextPage, hasNextPage]
   );
 
-  const { Meta } = Card;
-
   if (isLoading)
     return (
       <div className="flex items-center justify-center min-h-screen">
@@ -57,72 +59,10 @@ function Movies() {
           return page.results.map((movie, i) => {
             if (i + 1 === page.results.length) {
               return (
-                <Col ref={lastMovieRef} key={movie.id}>
-                  <Card
-                    hoverable
-                    className="w-full border-none bg-surface"
-                    cover={
-                      <img
-                        className="object-cover w-36 h-60"
-                        alt={movie.title}
-                        src={
-                          "http://image.tmdb.org/t/p/" +
-                          "w500" +
-                          movie.poster_path
-                        }
-                      />
-                    }
-                  >
-                    <Meta
-                      className="text-left"
-                      title={<h3 className="text-white">{movie.title}</h3>}
-                    />
-                  </Card>
-                </Col>
+                <MovieCard ref={lastMovieRef} key={movie.id} movie={movie} />
               );
             }
-            return (
-              <Link key={movie.id} to={`/movies/${movie.id}`}>
-                <Col>
-                  <Card
-                    hoverable
-                    className="w-full border-none bg-surface"
-                    cover={
-                      <img
-                        className="object-cover w-36 h-60"
-                        alt={movie.title}
-                        src={
-                          "http://image.tmdb.org/t/p/" +
-                          "w500" +
-                          movie.poster_path
-                        }
-                      />
-                    }
-                  >
-                    <Meta
-                      className="text-left"
-                      title={<h3 className="text-white">{movie.title}</h3>}
-                      description={
-                        <div className="flex justify-between">
-                          <span style={{ color: "#cbd5e1" }}>
-                            {movie.release_date.split("-")[0]}
-                          </span>{" "}
-                          <span className="flex items-center space-x-1">
-                            <StarFilled
-                              style={{ color: "#eab308" }}
-                              twoToneColor="#60a5fa"
-                            />
-                            <span style={{ color: "#cbd5e1" }}>
-                              {movie.vote_average}
-                            </span>
-                          </span>
-                        </div>
-                      }
-                    />
-                  </Card>
-                </Col>
-              </Link>
-            );
+            return <MovieCard key={movie.id} movie={movie} />;
           });
         })}
       </Row>
