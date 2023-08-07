@@ -1,23 +1,16 @@
-import { useRef, useCallback } from "react";
-import { Spin, Card, Row, Col } from "antd";
-import useGetMovies from "../hooks/useGetMovies";
-import { Link } from "react-router-dom";
-import { StarFilled } from "@ant-design/icons";
+import { useRef, useCallback } from 'react';
+import { Spin, Card, Row, Col } from 'antd';
+import useGetMovies from '../hooks/useGetMovies';
+import { Link } from 'react-router-dom';
+import { StarFilled } from '@ant-design/icons';
 
 // Custom Components
-import MovieCard from "components/MovieCard";
+import MovieCard from 'components/MovieCard';
 
 function Movies() {
   // const [movies, setMovies] = useState(null);
 
-  const {
-    isLoading,
-    error,
-    data: movies,
-    fetchNextPage,
-    hasNextPage,
-    isFetchingNextPage,
-  } = useGetMovies();
+  const { isLoading, error, data: movies, fetchNextPage, hasNextPage, isFetchingNextPage } = useGetMovies();
 
   // observer
   const intObserver = useRef(null);
@@ -53,14 +46,12 @@ function Movies() {
   if (error) return <p>An error occured: {error.message}</p>;
 
   return (
-    <div className="min-h-screen p-12" style={{ backgroundColor: "#1B2124" }}>
+    <div className="min-h-screen p-12 bg-background">
       <Row className="grid grid-cols-1 gap-3 md:grid-cols-3 lg:grid-cols-4">
         {movies.pages.map((page) => {
           return page.results.map((movie, i) => {
             if (i + 1 === page.results.length) {
-              return (
-                <MovieCard ref={lastMovieRef} key={movie.id} movie={movie} />
-              );
+              return <MovieCard ref={lastMovieRef} key={movie.id} movie={movie} />;
             }
             return <MovieCard key={movie.id} movie={movie} />;
           });

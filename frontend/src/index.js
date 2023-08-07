@@ -1,8 +1,8 @@
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -18,5 +18,5 @@ ReactDOM.render(
     <App />
     <ReactQueryDevtools initialIsOpen />
   </QueryClientProvider>,
-  document.getElementById("root")
+  document.getElementById('root')
 );

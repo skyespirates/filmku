@@ -12,19 +12,27 @@ To deploy this project run :
 
 - children of heaven
 
-salah satu film masa kecil paling spesial. di setiap momen libur panjang seperti lebaran dan tahun baru selalu nungguin film ini tayang di televisi
+salah satu film masa kecil paling spesial. di setiap momen libur panjang seperti lebaran dan tahun baru selalu nungguin film ini tayang di televisi. entah zaman sekarang masih ada atau nggak.
 
 film hangat yang bener-bener bisa menyimpan kenangan masa kecil. mana ceritanya juga tentang anak kecil semua lagi.
 
-storynya yang ringan dan menyentuh hati memang cocok sebagai film yang ditonton bersama keluarga.
+storynya yang ringan, menyentuh hati, bawaannya adem selalu tiap nonton film ini. tapi tetep di beberapa adegan selalu ada aja yang bikin hati nyesek.
+
+film paling hangat dan selalu menjadi high recomended sebagai tontonan bareng keluarga. pokoknya siapkan momen dan tempat terbaik untuk menyaksikan film ini, dijamin gak bakal gagal.
 
 - keramat
 
-film yang membuat saya suka konsep film found footage.
+The Blair Project memang pencetus film dengan konsep found footage, tapi film yang menjadi pencetus saya suka film found footage ya film Keramat ini.
+
 saya tidak terlalu suka film horror, tapi itu menjadi pengecualian untuk film yang satu ini.
-orisinalitasnya dapet banget sebagai film found footage. kayanya gak bakal ada yang ngalahin even dibuat film dengan konsep serupa (buktinya dapat dilihat dari sequelnya)
-konsep horrornya gak dilebih-lebihkan tapi tetep bikin ngeri. (SPOILER!!!) apalagi adegan legend pocong depan kameramen, sampe sekarang kalo ditonton masih serem cuyyy
-salah satu film indonesia yang wajib ditonton
+
+sangat memanfaatkan konsep found footage yang membuat orisinalitasnya dapet banget. jika ada yang pertama kali nonton film keramat dan dikasih tau jika adegan disini bener-bener nyata mungkin orang itu bisa aja percaya.
+
+kayanya gak bakal ada yang ngalahin even dibuat film dengan konsep serupa (buktinya dapat dilihat dari sequelnya)
+
+konsep horrornya gak dilebih-lebihkan tapi tetep bikin ngeri. di film keramat ini pula terdapat adegan jump scare paling serem yang pernah saya tonton.
+
+salah satu film indonesia yang wajib ditonton oleh siapapun
 
 - green book
 
@@ -35,17 +43,18 @@ bukan sekedar embel-embel film pemenang oscar, tapi ya filmnya memang bagus. cer
 pokoknya ini tipe film yang cocok ditonton nobar sama temen-temen atau keluarga besar.
 
 - shoplifters
-  film paling jujur disaat semua tokoh dalam film ini adalah pembohong. ironi memang
-  tapi memang begitu rasanya saya disaat menonton film ini
-  hangat,
+
+film paling jujur disaat semua tokoh dalam film ini adalah pembohong. ironi memang tapi memang begitu rasanya saya disaat menonton film ini.
+
+sesuai judul, menceritakan ssatu keluarga yag kerjanya tukang ngutil barang-barang di toko.
 
 - joker
 
-  saya gak ngikutin banget film batman (cuma nonton the dark knight), tapi film joker ini tetep bisa dinikmati dengan baik
+saya gak ngikutin banget film batman (cuma nonton the dark knight), tapi film joker ini tetep bisa dinikmati dengan baik
 
-  di film ini bener-bener nunjukin banget sisi lain joker, dari mulai struggle kehidupannya, beban hidupnya sampai yang bikin jadi sosok joker beneran.
+di film ini bener-bener nunjukin banget sisi lain joker, dari mulai struggle kehidupannya, beban hidupnya sampai yang bikin jadi sosok joker beneran.
 
-  apalagi pemilihan joqain penix disini bener-bener sukses.
+apalagi pemilihan joqain penix disini bener-bener sukses.
 
 - bad genius
 
