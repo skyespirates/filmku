@@ -40,6 +40,7 @@ Filmku merupakan Blog pribadi yang memuat tentang film terbaik yang pernah diton
 - Menggunakan --- sebagai Uploader image
 - Mencari algoritma lain yang lebih efektif untuk konsep Upload film
 - Membuat form untuk update movie
+- carousel form feature
 
 ## 🚀 Tim Pengembang
 

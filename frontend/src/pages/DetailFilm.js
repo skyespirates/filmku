@@ -34,7 +34,7 @@ const DetailFilm = () => {
           <div className="max-w-5xl mx-auto pt-9">
             {/* title */}
             <div className="mb-6 text-center md:text-left head">
-              <h1 className="text-2xl font-semibold text-white capitalize md:text-3xl">{films.title} </h1>
+              <h1 className="text-3xl font-semibold text-white capitalize md:text-3xl">{films.title} </h1>
               <p className="text-sm text-white md:text-base">{films.year}</p>
             </div>
             <div className="flex flex-col md:flex-row body">
@@ -43,10 +43,11 @@ const DetailFilm = () => {
                 <img className="absolute object-cover w-full h-full " src={image} alt={films.title} />
               </div>
               {/* description */}
-              <div className="text-sm text-justify text-black-400 md:text-base">
+              <div className="text-sm px-4 md:px-0 text-justify text-black-400 md:text-base">
                 <p className="mb-6 text-white normal-case" dangerouslySetInnerHTML={{ __html: films.description }} />
               </div>
             </div>
+            {/* back button */}
             <div className="py-8 text-center">
               <Link
                 className="px-8 py-2 mx-3 my-1 text-xs font-semibold text-white bg-transparent rounded-full hover:text-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 md:text-base"

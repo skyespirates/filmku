@@ -1,19 +1,22 @@
 import Footer from '../components/Footer';
 // import Auth from "../components/Auth";
-import Filter from '../components/Filter';
-import FilmCard from '../components/FilmCard';
+import Filter from '../components/ListMovies/Filter';
+import FilmCard from '../components/ListMovies/FilmCard';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 // import { request } from "../apiCalls";
 // import { film } from "../data";
 // import { Link } from "react-router-dom";
-import UsePagination from '../components/UsePagination';
+import UsePagination from '../components/ListMovies/UsePagination';
 
 const Film = () => {
   const [films, setFilms] = useState([]);
   const [filteredResult, setFilteredResult] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
+  const [open, isOpen] = useState(false);
+  const [openCountry, isOpenCountry] = useState(false);
+  const [openYear, isOpenYear] = useState(false);
 
   useEffect(() => {
     const getFilms = async () => {
@@ -28,6 +31,12 @@ const Film = () => {
     // console.log(filteredResult);
     getFilms();
   }, []);
+
+  const handleClose = () => {
+    isOpen(false);
+    isOpenCountry(false);
+    isOpenYear(false);
+  };
 
   const PER_PAGE = 5;
   const _DATA = UsePagination(filteredResult, PER_PAGE, currentPage, setCurrentPage);
@@ -45,10 +54,20 @@ const Film = () => {
   return (
     <>
       {/* filter */}
+      <Filter
+        filteredResult={filteredResult}
+        setFilteredResult={setFilteredResult}
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+        open={open}
+        isOpen={isOpen}
+        openCountry={openCountry}
+        openYear={openYear}
+        isOpenCountry={isOpenCountry}
+        isOpenYear={isOpenYear}
+      />
 
       {/* daftar film  */}
-      <Filter filteredResult={filteredResult} setFilteredResult={setFilteredResult} currentPage={currentPage} setCurrentPage={setCurrentPage} />
-
       <div className="" style={{ backgroundColor: '#1B2124' }}>
         {loading ? (
           <h1 className="text-5xl text-white">Loading...</h1>

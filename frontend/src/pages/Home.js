@@ -1,9 +1,9 @@
-import About from '../components/About';
-import Fitur from '../components/Fitur';
+import About from '../components/HomePage/About';
+import Fitur from '../components/HomePage/Fitur';
 import Footer from '../components/Footer';
-import Hero from '../components/Hero';
-import Recent from '../components/Recent';
-import Team from '../components/Team';
+import Hero from '../components/HomePage/Hero';
+import Recent from '../components/HomePage/Recent';
+import Team from '../components/HomePage/Team';
 
 const Home = () => {
   return (

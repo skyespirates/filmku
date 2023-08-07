@@ -15,7 +15,7 @@ const Navbar = () => {
           FILMKU
         </Link>
         <div onClick={() => setToggle(!toggle)} className="absolute z-10 flex justify-center w-6 h-6 align-middle rounded-full md:hidden right-3">
-          <ion-icon size="large" name="menu-outline"></ion-icon>
+          {toggle ? <ion-icon size="large" name="close-outline"></ion-icon> : <ion-icon size="large" name="menu-outline"></ion-icon>}
         </div>
         <ul className={`text-xl md:text-xl items-center justify-center md:justify-end  w-full  md:flex ${toggle ? 'block' : 'hidden'}`}>
           {page !== '' && (
