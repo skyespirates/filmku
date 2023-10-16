@@ -12,41 +12,47 @@ To deploy this project run :
 
 - children of heaven
 
-salah satu film masa kecil paling spesial. di setiap momen libur panjang seperti lebaran dan tahun baru selalu nungguin film ini tayang di televisi. entah zaman sekarang masih ada atau nggak.
+salah satu film masa kecil paling spesial. di setiap momen libur panjang seperti lebaran dan tahun baru pasti nungguin film ini tayang di televisi. entahlah zaman sekarang masih ada atau nggak.
 
-film hangat yang bener-bener bisa menyimpan kenangan masa kecil. mana ceritanya juga tentang anak kecil semua lagi.
+perjuangan seorang Ali yang kehilangan sepatunya namun gak berani bilang ke orang tuanya karena gak mau ngerepotin keluarga yg memang hidup serba kekurangan.
 
-storynya yang ringan, menyentuh hati, bawaannya adem selalu tiap nonton film ini. tapi tetep di beberapa adegan selalu ada aja yang bikin hati nyesek.
+tipikal film keluarga pada umumnya. story yang ringan, menyentuh hati, bawaannya adem selalu tiap nonton film ini. jiwa kita bener-bener ikut merasakan perjuangan Ali dalam mengadapi segala masalahnya.
 
-film paling hangat dan selalu menjadi high recomended sebagai tontonan bareng keluarga. pokoknya siapkan momen dan tempat terbaik untuk menyaksikan film ini, dijamin gak bakal gagal.
+salah satu high recomended movie untuk dijadikan tontonan nobar bareng keluarga. pokoknya siapkan momen dan tempat terbaik untuk menyaksikan film ini, dijamin gak bakal nyesel.
 
 - keramat
 
-The Blair Project memang pencetus film dengan konsep found footage, tapi film yang menjadi pencetus saya suka film found footage ya film Keramat ini.
+The Blair Project memang pencetus film dengan konsep found footage, tapi film yang menjadi pencetus saya suka film found footage ya film Keramat ini. saya tipikal orang yang gak terlalu suka film horror, tapi itu menjadi pengecualian untuk film yang satu ini.
 
-saya tidak terlalu suka film horror, tapi itu menjadi pengecualian untuk film yang satu ini.
+sangat memanfaatkan konsep found footage, orisinalitasnya dapet banget. jika ada yang pertama kali nonton film keramat dan dikasih tau jika adegan disini bener-bener rekaman nyata mungkin orang itu bisa aja percaya.
 
-sangat memanfaatkan konsep found footage yang membuat orisinalitasnya dapet banget. jika ada yang pertama kali nonton film keramat dan dikasih tau jika adegan disini bener-bener nyata mungkin orang itu bisa aja percaya.
+sampai sekarang belum ada horor indonesia yang lebih baik dari Keramat ini, padahal film ini keluaran tahu 2009. dan jikapun dibuat film dengan konsep serupa, rasanya gak bakal ada yang bisa lebih baik (terbukti dari sequelnya)
 
-kayanya gak bakal ada yang ngalahin even dibuat film dengan konsep serupa (buktinya dapat dilihat dari sequelnya)
-
-konsep horrornya gak dilebih-lebihkan tapi tetep bikin ngeri. di film keramat ini pula terdapat adegan jump scare paling serem yang pernah saya tonton.
-
-salah satu film indonesia yang wajib ditonton oleh siapapun
+konsep horrornya gak dilebih-lebihkan tapi justru itu yang bikin serem. Belum lagi adegan \*\*\* yang menurut saya salah satu jump scare terbaik sepanjang masa. Kalau butuh rekomendasi film Indonesia, wajib tonton ini
 
 - green book
 
-film bertemakan persahabatan dan diangkat dari kisah nyata. setidaknya dua hal itu sudah jadi jaminan kenapa saya suka sama film ini.
+film bertemakan persahabatan dan juga diangkat dari kisah nyata. setidaknya dua hal itu sudah jadi jaminan kenapa saya suka sama film ini.
+
+kisah perjalanan seorang sopir dan bosnya berkeliling Amerika untuk mengadakan konser.
+
+mengangkat isu rasial kulit hitam tunggu sampai si sopir adalah orang
 
 bukan sekedar embel-embel film pemenang oscar, tapi ya filmnya memang bagus. ceritanya mulus, actingnya pada bagus, eksekusinya juga mantep dan gak ngebosenin. walaupun ada satu hal yang gak saya suka (pasti tau kalo udah nonton), tapi gak terlalu mengganggu kok.
 
-pokoknya ini tipe film yang cocok ditonton nobar sama temen-temen atau keluarga besar.
+perubahan karakter si supir dari yang awalnya kesal sampai pada akhirnya menjadi orang terdekat baginya. belum lagi back story keduanya yang membuat hubungan mereka semakin dekat.
 
 - shoplifters
 
-film paling jujur disaat semua tokoh dalam film ini adalah pembohong. ironi memang tapi memang begitu rasanya saya disaat menonton film ini.
+film paling jujur yang pernah saya tonton. ironisnya, semua tokoh utama pada film ini merupakan pembohong semua.
 
-sesuai judul, menceritakan ssatu keluarga yag kerjanya tukang ngutil barang-barang di toko.
+hal yang saya sadari setelah selesai menonton film ini. dan hal itu pula yang membuat saya kagum dan merinding sendiri terhadap film Shoplifter ini.
+
+Menceritakan sebuah keluarga yang hidupnya menjadi penguntil (shoplifter) di toko2. hingga pada suatu kejadian mereka menemukan seorang anak kecil terlantar dan akhirnya merawatnya.
+
+pace film yang slow, minim konflik. namun kerasa sekali hati didalamnya. ditambah banyak scene-scene yang mungkin pada awalnya serasa tidak penting namun di akhir kita bakal tahu kalau semua itu ada hubungannya
+
+selesai nonton film ini bawaanya pengen merenung, diem dan gak ngapa-ngapain. cobain deh
 
 - joker
 

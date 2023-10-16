@@ -1,114 +1,129 @@
 const Movie = require('../models/Movie');
-const multer = require('multer');
+const { response } = require('../helpers/response');
 
-// SET STORAGE
-const Storage = multer.diskStorage({
-  destination: 'uploads',
-  filename: function (req, file, cb) {
-    cb(null, new Date().getTime() + '-' + 'image.png');
-  },
-});
-const fileFilter = (req, file, cb) => {
-  if (file.mimetype === 'image/png' || file.mimetype === 'image/jpg' || file.mimetype === 'image/jpeg') {
-    cb(null, true);
-  } else {
-    cb(null, false);
-  }
-};
-
-const upload = multer({ storage: Storage, fileFilter: fileFilter }).single('testImage');
-
+// add new movie
 const createMovie = async (req, res) => {
   try {
     const movies = await Movie.findOne({}).sort({
       rank: -1,
       createdAt: -1,
     });
-    const dataRank = movies.rank;
-    // console.log(movies.rank);
+    const dataRank = movies.rank; //get last index in data
+    var lastRank = req.body.rank;
 
-    upload(req, res, (err) => {
-      if (err) {
-        console.log('file not exist');
-      } else {
-        var lastRank = req.body.rank;
-        // console.log(lastRank);
-        while (lastRank <= dataRank) {
-          const oldRank = { rank: lastRank };
-          const newRank = { rank: parseInt(lastRank) + 1 };
-          Movie.findOneAndUpdate(oldRank, newRank, function (err, doc) {
-            if (err) {
-              console.log('Something wrong when updating data!');
-            }
-            // console.log(doc);
-          });
-          lastRank++;
+    if (lastRank > dataRank + 1) {
+      return response(res, {
+        code: 500,
+        success: false,
+        message: 'Ranking not valid',
+      });
+    }
+
+    // update position for ranking
+    while (lastRank <= dataRank) {
+      const oldRank = { rank: lastRank };
+      const newRank = { rank: parseInt(lastRank) + 1 };
+      Movie.findOneAndUpdate(oldRank, newRank, function (err, doc) {
+        if (err) {
+          console.log('Something wrong when updating data!');
         }
-        const image = req.file.filename;
-        const newImage = new Movie({
-          rank: req.body.rank,
-          title: req.body.title,
-          year: req.body.year,
-          genre: req.body.genre,
-          country: req.body.country,
-          description: req.body.description,
-          image: image,
-        });
+        // console.log(doc);
+      });
+      lastRank++;
+    }
 
-        newImage
-          .save()
-          .then((result) =>
-            res.send({
-              message: ' sukses',
-              data: result,
-            })
-          )
-          .catch((err) => res.send(err));
-      }
+    const result = await Movie.create(req.body);
+    return response(res, {
+      code: 201,
+      success: true,
+      message: 'Data Successfull',
+      content: result,
     });
-    // const movie = await Movie.create(req.body);
-    // res.status(200).json(movie);
   } catch (error) {
-    console.log('salah');
-    res.status(400).json({ error: error.message });
+    return response(res, {
+      code: 400,
+      success: false,
+      message: error.message,
+    });
   }
 };
+
+// get all movies
 const getMovies = async (req, res) => {
   try {
     const movies = await Movie.find({}).sort({
       rank: 1,
       createdAt: -1,
     });
-    res.status(200).json(movies);
+
+    return response(res, {
+      code: 200,
+      success: true,
+      content: movies,
+    });
   } catch (error) {
-    res.status(400).json({ error: error.message });
+    return response(res, {
+      code: 400,
+      success: false,
+      message: error.message,
+    });
   }
 };
 
+// get movie by ID
 const getMovie = async (req, res) => {
   try {
     const movie = await Movie.findById(req.params.id);
-    res.status(200).json({ movie });
+
+    return response(res, {
+      code: 200,
+      success: true,
+      content: movie,
+    });
   } catch (error) {
-    res.status(400).json({ error: error.message });
+    return response(res, {
+      code: 400,
+      success: false,
+      message: error.message,
+    });
   }
 };
+
+// update movie
 const updateMovie = async (req, res) => {
   const id = req.params.id;
   try {
     const updated = await Movie.findByIdAndUpdate(id, { ...req.body }, { new: true });
-    res.status(200).json(updated);
-    // console.log('update');
+    return response(res, {
+      code: 200,
+      success: true,
+      message: 'updated successfully',
+      content: updated,
+    });
   } catch (error) {
-    res.status(400).json({ error: error.message });
+    return response(res, {
+      code: 400,
+      success: false,
+      message: error.message,
+    });
   }
 };
+
+// delete movie
 const deleteMovie = async (req, res) => {
   try {
     await Movie.findByIdAndDelete(req.params.id);
-    res.status(200).json({ message: 'Movie deleted' });
+    return response(res, {
+      code: 200,
+      success: true,
+      message: 'Movie deleted',
+    });
   } catch (error) {
-    res.status(400).json({ error: error.message });
+    return response(res, {
+      code: 400,
+      success: false,
+      message: error.message,
+    });
   }
 };
 

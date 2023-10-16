@@ -9,7 +9,7 @@ const FilmCard = (props) => {
         <p className="my-auto text-2xl font-semibold">{rank}.</p>
       </div>
       {/* content */}
-      <div className="flex flex-1 w-full p-8 mb-4 rounded-lg bg-surface">
+      <div className="flex flex-1 min-w-80 w-full p-8 mb-4 rounded-lg bg-surface">
         {/* image content */}
         <div className="relative flex-shrink-0 mr-2 overflow-hidden bg-gray-900 md:mr-6 cardImage">
           <img className="absolute object-cover object-right w-full h-full" src={image} alt={title} />

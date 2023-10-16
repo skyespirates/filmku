@@ -11,15 +11,15 @@ const DetailFilm = () => {
   const [films, setFilms] = useState([]);
   const [filteredResult, setFilteredResult] = useState([]);
   const [loading, setLoading] = useState(true);
-  const image = `http://localhost:4000/images/${films.image}`;
+
   useEffect(() => {
     const getFilm = async () => {
       axios.get(`http://localhost:4000/api/v1/movies/${filmId}`).then((res) => {
-        const persons = res.data.movie;
+        const persons = res.data.content;
         setFilms(persons);
         setFilteredResult(persons);
         setLoading(false);
-        console.log(persons);
+        // console.log(persons);
         // console.log(films.title);
       });
     };
@@ -40,7 +40,7 @@ const DetailFilm = () => {
             <div className="flex flex-col md:flex-row body">
               {/* image */}
               <div className="relative flex-shrink-0 block mx-auto mb-6 overflow-hidden bg-gray-900 md:mr-6 detail">
-                <img className="absolute object-cover w-full h-full " src={image} alt={films.title} />
+                <img className="absolute object-cover w-full h-full " src={films.image} alt={films.title} />
               </div>
               {/* description */}
               <div className="px-4 text-sm text-justify md:px-0 text-black-400 md:text-base">

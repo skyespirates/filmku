@@ -27,7 +27,10 @@ app.use('/images', express.static(path.join(__dirname, 'uploads')));
 // cleanDB();
 
 mongoose
-  .connect(process.env.DB_URI)
+  .connect(process.env.DB_URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
   .then(() => {
     app.listen(process.env.PORT, () => {
       console.log('Connected to database');
