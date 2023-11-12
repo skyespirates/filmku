@@ -12,7 +12,7 @@ const Filter = ({ setFilteredResult, setCurrentPage, open, isOpen, openCountry, 
 
   useEffect(() => {
     const getFilms = async () => {
-      axios.get(`http://localhost:4000/api/v1/movies`).then((res) => {
+      axios.get(`https://filmku-api.vercel.app/api/v1/movies`).then((res) => {
         const persons = res.data.content;
         setData(persons);
       });

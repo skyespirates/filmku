@@ -20,7 +20,7 @@ const Film = () => {
 
   useEffect(() => {
     const getFilms = async () => {
-      axios.get(`http://localhost:4000/api/v1/movies`).then((res) => {
+      axios.get(`https://filmku-api.vercel.app/api/v1/movies`).then((res) => {
         // console.log(res.data);
         const persons = res.data.content;
         setFilms(persons);

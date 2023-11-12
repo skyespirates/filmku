@@ -4,11 +4,10 @@ import { useEffect, useState } from 'react';
 
 const Recent = () => {
   const [film, setFilm] = useState([]);
-  const id = Math.floor(Math.random() * 10) + 1;
 
   useEffect(() => {
     const getFilms = () => {
-      axios.get(`http://localhost:4000/api/v1/movies/646f042b61998f671f24add9`).then((res) => {
+      axios.get(`https://filmku-api.vercel.app/api/v1/movies/646f042b61998f671f24add9`).then((res) => {
         setFilm(res.data.content);
         console.log(res.data.content.image);
       });

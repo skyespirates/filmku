@@ -14,7 +14,7 @@ const DetailFilm = () => {
 
   useEffect(() => {
     const getFilm = async () => {
-      axios.get(`http://localhost:4000/api/v1/movies/${filmId}`).then((res) => {
+      axios.get(`https://filmku-api.vercel.app/api/v1/movies/${filmId}`).then((res) => {
         const persons = res.data.content;
         setFilms(persons);
         setFilteredResult(persons);

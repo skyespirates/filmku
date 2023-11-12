@@ -10,16 +10,6 @@ To deploy this project run :
 
 ## bahan isian
 
-- children of heaven
-
-salah satu film masa kecil paling spesial. di setiap momen libur panjang seperti lebaran dan tahun baru pasti nungguin film ini tayang di televisi. entahlah zaman sekarang masih ada atau nggak.
-
-perjuangan seorang Ali yang kehilangan sepatunya namun gak berani bilang ke orang tuanya karena gak mau ngerepotin keluarga yg memang hidup serba kekurangan.
-
-tipikal film keluarga pada umumnya. story yang ringan, menyentuh hati, bawaannya adem selalu tiap nonton film ini. jiwa kita bener-bener ikut merasakan perjuangan Ali dalam mengadapi segala masalahnya.
-
-salah satu high recomended movie untuk dijadikan tontonan nobar bareng keluarga. pokoknya siapkan momen dan tempat terbaik untuk menyaksikan film ini, dijamin gak bakal nyesel.
-
 - keramat
 
 The Blair Project memang pencetus film dengan konsep found footage, tapi film yang menjadi pencetus saya suka film found footage ya film Keramat ini. saya tipikal orang yang gak terlalu suka film horror, tapi itu menjadi pengecualian untuk film yang satu ini.

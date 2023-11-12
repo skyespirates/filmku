@@ -57,7 +57,7 @@ const Form = () => {
   };
   const handleSubmit = async () => {
     await axios
-      .post('http://localhost:4000/api/v1/movies', form, {
+      .post('https://filmku-api.vercel.app/api/v1/movies', form, {
         Headers: {
           'content-type': 'multipart/form-data',
         },

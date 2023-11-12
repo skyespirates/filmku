@@ -2,15 +2,10 @@
   "version": 2,
   "builds": [
     {
-      "src": "backend",
-      "use": "@vercel/node",
-      "config": { "zeroConfig": true }
+      "src": "frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "frontend" }
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "backend/server.js"
-    }
-  ]
+  "routes": [{ "handle": "filesystem" }, { "src": "/(.*)", "dest": "/frontend/$1" }]
 }
