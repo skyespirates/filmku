@@ -114,3 +114,12 @@ desain animasi jempolan, detailnya ituloh beuhh cakep banget. ceritanya walaupun
 bahkan di bagian ending gak percaya bisa bikin se emosional itu. cukup bangga menjadi salah satu yang bisa menikmati film ini di bioskop.
 
 - django unchained
+- the mithells vs the machines
+- inglorious basterd
+- noktah merah perkawinan
+- bohemian rapsody
+- missing
+- city of god
+- dangal
+- DC movies black iron submarine
+- killers of the flower moon
